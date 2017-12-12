@@ -17,3 +17,25 @@
 .purchase{
   padding: 2px;
 }
+
+footer{
+  height:30px;
+  background-color:rgb(19, 21, 22);
+  color:grey;
+.space{
+
+  display:flex;
+  justify-content: space-between;
+
+}
+  a{
+    color:white;
+  }
+  ul{
+    display:flex;
+    flex-direction: row;
+  }
+  li{
+    list-style-type:none;
+  }
+}
