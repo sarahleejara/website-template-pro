@@ -16,23 +16,22 @@
   color: #622DF8; }
 
 footer {
-  height: 30px;
   background-color: #131516;
-  color: grey; }
-  footer .space {
-    display: flex;
-    justify-content: space-between; }
-  footer a {
-    color: white; }
-  footer ul {
-    display: flex;
-    flex-direction: row; }
-  footer li {
-    list-style-type: none; }
+  color: grey;
+  height: 70px; }
+
+.socials {
+  font-size: 17px; }
+  .socials p, .socials a {
+    margin: 0; }
+  .socials a {
+    color: grey; }
 
 .box-2 {
+  background-color: #F6F6F6; }
+
+.setup {
   text-align: center;
-  background-color: #F6F6F6;
-  height: 700px; }
+  width: 700px; }
 
 /*# sourceMappingURL=style.css.map */

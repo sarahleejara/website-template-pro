@@ -25,26 +25,23 @@
 }
 
 footer{
-  height:30px;
   background-color:rgb(19, 21, 22);
   color:grey;
-.space{
-  display:flex;
-  justify-content: space-between;
+  height: 70px;
 }
+.socials{
+  font-size: 17px;
+  p, a{
+    margin: 0;
+  }
   a{
-    color:white;
-  }
-  ul{
-    display:flex;
-    flex-direction: row;
-  }
-  li{
-    list-style-type:none;
+    color:grey;
   }
 }
 .box-2{
+    background-color: #F6F6F6;
+}
+.setup{
   text-align: center;
-  background-color: #F6F6F6;
-  height: 700px;
+  width: 700px;
 }
