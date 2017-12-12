@@ -1,14 +1,18 @@
 .main .info {
   font-size: 11px; }
   .main .info .row div {
-    border: 1px solid;
+    border: 0.3px solid;
     padding: 10px 0px; }
 
 .navbar {
   text-transform: uppercase;
   font-size: 12px; }
 
-.purchase {
-  padding: 2px; }
+.dropdown-item {
+  font-size: 12px;
+  text-transform: capitalize; }
+
+.purple a {
+  color: #622DF8; }
 
 /*# sourceMappingURL=style.css.map */
