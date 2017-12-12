@@ -29,10 +29,8 @@ footer{
   background-color:rgb(19, 21, 22);
   color:grey;
 .space{
-
   display:flex;
   justify-content: space-between;
-
 }
   a{
     color:white;
@@ -44,4 +42,9 @@ footer{
   li{
     list-style-type:none;
   }
+}
+.box-2{
+  text-align: center;
+  background-color: #F6F6F6;
+  height: 700px;
 }
