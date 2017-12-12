@@ -1,4 +1,9 @@
 .main .info {
-  font-size: 10px; }
+  font-size: 10px;
+  padding: 10px 0px; }
+
+.navbar {
+  text-transform: uppercase;
+  font-size: 15px; }
 
 /*# sourceMappingURL=style.css.map */
