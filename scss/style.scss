@@ -1,10 +1,20 @@
 .main{
   .info{
-    font-size: 10px;
-    padding: 10px 0px;
+    font-size: 11px;
+
+    .row{
+      div{
+        border: 1px solid;
+        padding: 10px 0px;
+      }
+    }
   }
 }
 .navbar{
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 12px;
+}
+.purchase{
+  padding: 2px;
+  width: 20px;
 }

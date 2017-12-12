@@ -10,18 +10,19 @@
   <body class="main">
     <div class="container-fluid border info">
       <div class="row">
-        <div class="col-2">&nbsp;</div>
-        <div class="col-1"><i class="fas fa-phone"></i> +1003554668</div>
-        <div class="col-5"><i class="fas fa-envelope"></i> exemple@email.com</div>
+        <div class="col-1">&nbsp;</div>
+        <div class="col-2"><i class="fas fa-phone"></i> +1003554668</div>
+        <div class="col-6"><i class="fas fa-envelope"></i> exemple@email.com</div>
         <div class="col-3"><i class="fas fa-home"></i> New York, 22 Avenue, USA</div>
       </div>
     </div>
     <!-- Just an image -->
-      <nav class="navbar navbar-light bg-light justify-content-around container">
-        <a class="navbar-brand" href="#">
-          <img src="../images/logo-blue.png" width="150" alt="">
+      <nav class="navbar navbar-light container">
+        <div class="row col-12">
+        <a class="navbar-brand col-2" href="#">
+          <img src="../images/logo-blue.png" width="110" alt="">
         </a>
-        <ul class="nav">
+        <ul class="nav col-8">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
             <div class="dropdown-menu">
@@ -83,16 +84,32 @@
             </div>
           </li>
         </ul>
-        <button type="button" class="btn btn-primary">purchase now</button>
+        <button type="button" class="btn btn-primary purchase">purchase now</button>
+        </div>
       </nav>
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="../images/main-pic.jpg" alt="First slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
       <div class="container">
         <div class="row">
           <div class="col-1"></div>
           <div class="col-3"><h3>Stylish Design</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><a href="#">Read more</a></div>
           <div class="col-1"></div>
-          <div class="col-3"></div>
+          <div class="col-3"><h3>Exellent Support</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><a href="#">Read more</a></div>
           <div class="col-1"></div>
-          <div class="col-3"></div>
+          <div class="col-3"><h3>Time Savior</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><a href="#">Read more</a></div>
         </div>
 
       </div>
