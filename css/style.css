@@ -15,4 +15,19 @@
 .purple a {
   color: #622DF8; }
 
+footer {
+  height: 30px;
+  background-color: #131516;
+  color: grey; }
+  footer .space {
+    display: flex;
+    justify-content: space-between; }
+  footer a {
+    color: white; }
+  footer ul {
+    display: flex;
+    flex-direction: row; }
+  footer li {
+    list-style-type: none; }
+
 /*# sourceMappingURL=style.css.map */
