@@ -50,7 +50,10 @@
     color: #FFF;
     text-transform: uppercase; }
 
-.pf {
+.box-4 {
+  text-align: center; }
+
+.pf h4 {
   margin: 0; }
 
 /* Bottom page pre footer styling */
