@@ -89,7 +89,11 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 700px; }
+  height: 700px;
+  color: #FFF; }
+
+.mont {
+  background-color: rgba(0, 0, 0, 0.8); }
 
 /* Bottom page pre footer styling */
 .bottompage {
