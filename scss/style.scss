@@ -25,12 +25,13 @@ $white: #FFFFFF;
   font-size: 12px;
   text-transform: capitalize;
 }
-.purple{
+.purple-logo{
   a{
     color: #622DF8;
   }
 }
 
+<<<<<<< HEAD
 
 /* Bottom page pre footer styling */
 
@@ -90,6 +91,45 @@ $white: #FFFFFF;
 
 /* footer styling */
 
+=======
+.box-2{
+    background-color: #F6F6F6;
+}
+.setup{
+  text-align: center;
+  width: 700px;
+}
+.sub-3{
+  height: 700px;
+  color: #FFF;
+}
+.skills{
+  p{
+    margin: 0;
+    padding-bottom: 5px;
+  }
+}
+.black{
+  background-color: black;
+}
+.purple{
+  background-color: #622DF8;
+}
+.explore{
+  border: 2px solid #FFF;
+  border-radius: 3px;
+  width: 170px;
+  text-align: center;
+  padding: 7px;
+  font-size: 13px;
+  font-weight: bold;
+
+  a{
+    color: #FFF;
+    text-transform: uppercase;
+  }
+}
+>>>>>>> 70f74d6ab3c6100b7195a746ebd18f710b2d070b
 footer{
   background-color:rgb(19, 21, 22);
   color:grey;
@@ -103,11 +143,4 @@ footer{
   a{
     color:grey;
   }
-}
-.box-2{
-    background-color: #F6F6F6;
-}
-.setup{
-  text-align: center;
-  width: 700px;
 }
