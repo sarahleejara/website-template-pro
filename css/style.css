@@ -1,195 +1,45 @@
-/* Re usable classes */
-/* Page styling */
-.main .info {
-  font-size: 11px; }
-  .main .info .row div {
-    border: 0.3px solid;
-    padding: 10px 0px; }
+/*
+Error: Invalid CSS after "}": expected selector or at-rule, was "}"
+        on line 113 of scss/style.scss
 
-.navbar {
-  text-transform: uppercase;
-  font-size: 12px; }
+108:     font-weight: bold;
+109:     text-transform: capitalize;
+110:     font-size: 25px;
+111:   }
+112: }
+113: }
+114: /* Bottom page pre footer styling *\/
+115: 
+116: .bottompage{
+117:   background-color:rgb(27, 29, 31);
+118:   color:rgb(119, 119, 119);
 
-.dropdown-item {
-  font-size: 12px;
-  text-transform: capitalize; }
-
-.purple-logo a, .purple-logo i {
-  color: #622DF8; }
-
-.box-2, .features {
-  background-color: #F6F6F6; }
-
-.setup {
-  text-align: center;
-  width: 700px; }
-
-.sub-3 {
-  height: 700px;
-  color: #FFF; }
-
-.skills p {
-  margin: 0;
-  padding-bottom: 5px; }
-
-.black {
-  background-color: black; }
-
-.purple {
-  background-color: #622DF8; }
-
-.explore {
-  border: 2px solid #FFF;
-  border-radius: 3px;
-  width: 170px;
-  text-align: center;
-  padding: 7px;
-  font-size: 13px;
-  font-weight: bold; }
-  .explore a {
-    color: #FFF;
-    text-transform: uppercase; }
-
-.box-4 {
-  text-align: center;
-  height: 1000px; }
-
-.make-it h3, .make-it h5 {
-  margin: 0; }
-.make-it h5 {
-  font-size: 15px; }
-.make-it h3 {
-  padding: 10px 0;
-  text-transform: capitalize;
-  font: 40px bold, sans-serif; }
-
-.upper-divider {
-  height: 3px;
-  width: 100px;
-  margin-top: 10px;
-  background-color: #622DF8; }
-
-.pf h4 {
-  margin: 0; }
-
-.features {
-  height: 700px;
-  text-align: center; }
-
-.tools-main .icons {
-  font-size: 45px;
-  padding-bottom: 10px; }
-.tools-main h6 {
-  font-weight: bold;
-  text-transform: capitalize;
-  font-size: 25px; }
-
-/*-------------------------------*/
-/*      Code snippet by          */
-/*      @maridlcrmn              */
-/*-------------------------------*/
-section {
-  padding-top: 100px;
-  padding-bottom: 100px; }
-
-.quote {
-  color: rgba(0, 0, 0, 0.1);
-  text-align: center;
-  margin-bottom: 30px; }
-
-/*-------------------------------*/
-/*    Carousel Fade Transition   */
-/*-------------------------------*/
-#fade-quote-carousel.carousel {
-  padding-bottom: 60px; }
-
-#fade-quote-carousel.carousel .carousel-inner .item {
-  opacity: 0;
-  -webkit-transition-property: opacity;
-  -ms-transition-property: opacity;
-  transition-property: opacity; }
-
-#fade-quote-carousel.carousel .carousel-inner .active {
-  opacity: 1;
-  -webkit-transition-property: opacity;
-  -ms-transition-property: opacity;
-  transition-property: opacity; }
-
-#fade-quote-carousel.carousel .carousel-indicators {
-  bottom: 10px; }
-
-#fade-quote-carousel.carousel .carousel-indicators > li {
-  background-color: rgba(0, 0, 0, 0.7);
-  border: none; }
-
-li.active {
-  background-color: rgba(0, 0, 0, 0.2); }
-
-#fade-quote-carousel blockquote {
-  text-align: center;
-  border: none; }
-
-#fade-quote-carousel .profile-circle {
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
-  border-radius: 100px; }
-
-/* Bottom page pre footer styling */
-.bottompage {
-  background-color: #1b1d1f;
-  color: #777777;
-  padding-top: 60px;
-  font-size: 17px; }
-  .bottompage img {
-    height: 13%;
-    width: 13%;
-    margin-bottom: 20px; }
-  .bottompage h3 {
-    color: white;
-    text-transform: uppercase;
-    font-size: inherit;
-    margin-bottom: 40px; }
-  .bottompage a {
-    color: inherit; }
-    .bottompage a:hover {
-      font-weight: bold;
-      text-decoration: none;
-      transition-duration: 0.2s; }
-  .bottompage ul {
-    padding: 0;
-    margin: 0; }
-  .bottompage li {
-    list-style-type: none;
-    padding-bottom: 12px; }
-  .bottompage .minititle {
-    font-size: 93%; }
-
-.date {
-  width: 100%;
-  border-top: solid 1px #777777;
-  text-transform: uppercase;
-  font-size: 12px;
-  padding-top: 2px; }
-
-.white {
-  color: #FFFFFF; }
-
-.logos img {
-  height: 60%;
-  padding: 12px 0px; }
-
-/* footer styling */
-footer {
-  background-color: #131516;
-  color: grey;
-  height: 70px; }
-
-.socials {
-  font-size: 17px; }
-  .socials p, .socials a {
-    margin: 0; }
-  .socials a {
-    color: grey; }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+scss/style.scss:113
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1278:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1208:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:42:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/engine.rb:414:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"}\": expected selector or at-rule, was \"}\"\A         on line 113 of scss/style.scss\A \A 108:     font-weight: bold;\A 109:     text-transform: capitalize;\A 110:     font-size: 25px;\A 111:   }\A 112: }\A 113: }\A 114: /* Bottom page pre footer styling */\A 115: \A 116: .bottompage{\A 117:   background-color:rgb(27, 29, 31);\A 118:   color:rgb(119, 119, 119);"; }
