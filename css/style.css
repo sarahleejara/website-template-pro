@@ -84,6 +84,13 @@
   text-transform: capitalize;
   font-size: 25px; }
 
+.box-6 {
+  background-image: url(../images/montagne.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px; }
+
 /* Bottom page pre footer styling */
 .bottompage {
   background-color: #1b1d1f;
@@ -132,7 +139,8 @@
 footer {
   background-color: #131516;
   color: grey;
-  height: 70px; }
+  height: 70px;
+  font-family: "Poppins"; }
 
 .socials {
   font-size: 17px; }
