@@ -93,6 +93,10 @@
 .white {
   color: #FFFFFF; }
 
+.logos img {
+  height: 60%;
+  padding: 12px 0px; }
+
 /* footer styling */
 footer {
   background-color: #131516;
