@@ -57,6 +57,10 @@
 .white {
   color: #FFFFFF; }
 
+.logos img {
+  height: 60%;
+  padding: 12px 0px; }
+
 /* footer styling */
 .box-2 {
   background-color: #F6F6F6; }
