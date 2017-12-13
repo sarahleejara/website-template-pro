@@ -1,3 +1,5 @@
+/* Re usable classes */
+/* Page styling */
 .main .info {
   font-size: 11px; }
   .main .info .row div {
@@ -15,6 +17,47 @@
 .purple a {
   color: #622DF8; }
 
+/* Bottom page pre footer styling */
+.bottompage {
+  background-color: #1b1d1f;
+  color: #777777;
+  padding-top: 60px;
+  font-size: 17px; }
+  .bottompage img {
+    height: 13%;
+    width: 13%;
+    margin-bottom: 20px; }
+  .bottompage h3 {
+    color: white;
+    text-transform: uppercase;
+    font-size: inherit;
+    margin-bottom: 40px; }
+  .bottompage a {
+    color: inherit; }
+    .bottompage a:hover {
+      font-weight: bold;
+      text-decoration: none;
+      transition-duration: 0.2s; }
+  .bottompage ul {
+    padding: 0;
+    margin: 0; }
+  .bottompage li {
+    list-style-type: none;
+    padding-bottom: 12px; }
+  .bottompage .minititle {
+    font-size: 93%; }
+
+.date {
+  width: 100%;
+  border-top: solid 1px #777777;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-top: 2px; }
+
+.white {
+  color: #FFFFFF; }
+
+/* footer styling */
 footer {
   background-color: #131516;
   color: grey;
