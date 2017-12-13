@@ -26,11 +26,11 @@ $white: #FFFFFF;
   text-transform: capitalize;
 }
 .purple-logo{
-  a{
+  a, i{
     color: #622DF8;
   }
 }
-.box-2{
+.box-2, .features{
   background-color: #F6F6F6;
 }
 .setup{
@@ -69,10 +69,45 @@ $white: #FFFFFF;
 }
 .box-4{
   text-align: center;
+  height: 1000px;
+}
+.make-it{
+  h3, h5{
+    margin: 0;
+  }
+  h5{
+    font-size: 15px;
+  }
+  h3{
+    padding: 10px 0;
+    text-transform: capitalize;
+    font: 40px bold, sans-serif;
+  }
+}
+.upper-divider{
+  height: 3px;
+  width: 100px;
+  margin-top: 10px;
+  background-color: #622DF8;
 }
 .pf{
   h4{
     margin: 0;
+  }
+}
+.features{
+  height: 700px;
+  text-align: center;
+}
+.tools-main{
+  .icons{
+    font-size: 45px;
+    padding-bottom: 10px;
+  }
+  h6{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 25px;
   }
 }
 /* Bottom page pre footer styling */
@@ -137,7 +172,6 @@ $white: #FFFFFF;
     padding:12px 0px;
   }
 }
-
 /* footer styling */
 
 footer{

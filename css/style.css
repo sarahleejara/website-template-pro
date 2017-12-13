@@ -14,10 +14,10 @@
   font-size: 12px;
   text-transform: capitalize; }
 
-.purple-logo a {
+.purple-logo a, .purple-logo i {
   color: #622DF8; }
 
-.box-2 {
+.box-2, .features {
   background-color: #F6F6F6; }
 
 .setup {
@@ -51,10 +51,38 @@
     text-transform: uppercase; }
 
 .box-4 {
-  text-align: center; }
+  text-align: center;
+  height: 1000px; }
+
+.make-it h3, .make-it h5 {
+  margin: 0; }
+.make-it h5 {
+  font-size: 15px; }
+.make-it h3 {
+  padding: 10px 0;
+  text-transform: capitalize;
+  font: 40px bold, sans-serif; }
+
+.upper-divider {
+  height: 3px;
+  width: 100px;
+  margin-top: 10px;
+  background-color: #622DF8; }
 
 .pf h4 {
   margin: 0; }
+
+.features {
+  height: 700px;
+  text-align: center; }
+
+.tools-main .icons {
+  font-size: 45px;
+  padding-bottom: 10px; }
+.tools-main h6 {
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 25px; }
 
 /* Bottom page pre footer styling */
 .bottompage {
