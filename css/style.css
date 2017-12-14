@@ -94,6 +94,14 @@
   background-repeat: no-repeat;
   height: 700px;
   color: #FFF; }
+  .box-6 h3 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px; }
+
+.montain {
+  width: 300px;
+  height: 70%; }
 
 .mont {
   background-color: rgba(0, 0, 0, 0.8); }
@@ -128,8 +136,34 @@
   color: #FFFFFF; }
 
 .nightsky {
-  border: 1px solid #FFF;
-  border-radius: 3px; }
+  border-radius: 3px;
+  margin-right: 15px;
+  padding: 20px 0; }
+
+.btlearn {
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  width: 120px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-align: center; }
+
+.learn-white {
+  background-color: #FFF; }
+  .learn-white a {
+    color: grey; }
+
+.learn-mont a {
+  color: #FFFFFF; }
+
+.learn-purple {
+  background-color: #622DF8;
+  border-color: #622DF8; }
+  .learn-purple a {
+    color: #FFFFFF; }
 
 /* Bottom page pre footer styling */
 .bottompage {
