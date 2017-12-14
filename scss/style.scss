@@ -308,3 +308,59 @@ footer{
   width:10px;
 
 }
+.blogposts{
+  background-color:rgba(0,0,0,0.1);
+  padding:50px 0;
+}
+.infos{
+  h4{
+    font-size:13px;
+  }
+  h2{
+    font-size:30px;
+    font-weight:bold;
+  }
+}
+.blogpostscontent{
+  margin:0 auto;
+  width:80%;
+
+  h4{
+    color:rgba(0,0,0,0.4);
+  }
+  hr{
+    width:30%;
+    height:2px;
+    background-color:blue;
+  }
+
+  .card{
+    color:white;
+    text-transform:uppercase;
+    letter-spacing:1.2px;
+    p{
+      width:80%;
+    }
+    .date{
+      color:white;
+      font-size:12px;
+
+      opacity:0.9;
+      font-weight:lighter;
+    }
+    span{
+      font-size:10px;
+      opacity:0.9;
+      padding-top:1px;
+    }
+
+
+  }
+  a{
+    margin-top:20px;
+    color:black;
+    text-transform:uppercase;
+    font-weight:bold;
+  }
+
+}
