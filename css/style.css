@@ -1,5 +1,8 @@
 /* Re usable classes */
 /* Page styling */
+* {
+  font-family: "Poppins"; }
+
 .main .info {
   font-size: 11px; }
   .main .info .row div {
@@ -94,6 +97,35 @@
 
 .mont {
   background-color: rgba(0, 0, 0, 0.8); }
+
+.box-7 {
+  height: 700px; }
+
+.update-software {
+  width: 700px;
+  text-align: justify; }
+  .update-software h5 {
+    font-size: 30px;
+    color: lightgrey; }
+  .update-software h3 {
+    font-size: 40px;
+    font-weight: bold; }
+  .update-software p {
+    line-height: 30px; }
+
+.divider-ipad {
+  margin: 30px 0 20px 0;
+  background-color: #622DF8;
+  width: 50px;
+  height: 3px; }
+
+.box-8 {
+  background-image: url(http://newthemes.themeple.co/setup/wp-content/uploads/2017/09/blurbg13.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  color: #FFFFFF; }
 
 /* Bottom page pre footer styling */
 .bottompage {
