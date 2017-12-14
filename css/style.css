@@ -127,6 +127,10 @@
   height: 500px;
   color: #FFFFFF; }
 
+.nightsky {
+  border: 1px solid #FFF;
+  border-radius: 3px; }
+
 /* Bottom page pre footer styling */
 .bottompage {
   background-color: #1b1d1f;

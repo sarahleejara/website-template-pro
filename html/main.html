@@ -12,10 +12,10 @@
   <body class="main">
     <div class="container-fluid border info">
       <div class="row">
-        <div class="col-sm-1">&nbsp;</div>
-        <div class="col-sm-2"><i class="fas fa-phone"></i> +1003554668</div>
-        <div class="col-sm-6"><i class="fas fa-envelope"></i> exemple@email.com</div>
-        <div class="col-sm-3"><i class="fas fa-home"></i> New York, 22 Avenue, USA</div>
+        <div class="col-1">&nbsp;</div>
+        <div class="col-2"><i class="fas fa-phone"></i> +1003554668</div>
+        <div class="col-6"><i class="fas fa-envelope"></i> exemple@email.com</div>
+        <div class="col-3"><i class="fas fa-home"></i> New York, 22 Avenue, USA</div>
       </div>
     </div>
     <!-- début navigateur -->
@@ -78,7 +78,8 @@
       </div>
     </nav>
     <!-- fin du navigateur -->
-      <div class="row">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -95,6 +96,7 @@
           </a>
         </div>
       </div>
+    </div>
       <!-- début des 3 colonnes -->
       <div class="container pt-5 pb-5">
         <div class="row purple-logo">
@@ -313,11 +315,19 @@
         </div>
       </div>
       <!-- début box 8 night sky -->
-      <div class="box-8">
-        <div class="row">
-          <div class=""></div>
-          <div class=""></div>
-          <div class="">
+      <div class="box-8 align-items-center justify-content-center d-flex">
+        <div class="row justify-content-around">
+          <div class="nightsky col-2 align-items-center justify-content-center d-flex flex-column">
+            <i class="far fa-image" style="font-size: 40px;"></i>
+            <h2>235</h2>
+            <p>projects</p>
+          </div>
+          <div class="nightsky col-2 align-items-center justify-content-center d-flex flex-column">
+            <i class="far fa-bookmark" style="font-size: 40px;"></i>
+            <h2>546</h2>
+            <p>cup of coffee</p>
+          </div>
+          <div class="nightsky-text col-4">
             <h5>Your idea needs a great website</h5>
             <h3>interesting fact about our work</h3>
             <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
