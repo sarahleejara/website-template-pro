@@ -214,4 +214,44 @@ footer {
   height: 10px;
   width: 10px; }
 
+.blogposts {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 50px 0; }
+
+.infos h4 {
+  font-size: 13px; }
+.infos h2 {
+  font-size: 30px;
+  font-weight: bold; }
+
+.blogpostscontent {
+  margin: 0 auto;
+  width: 80%; }
+  .blogpostscontent h4 {
+    color: rgba(0, 0, 0, 0.4); }
+  .blogpostscontent hr {
+    width: 30%;
+    height: 2px;
+    background-color: blue; }
+  .blogpostscontent .card {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.2px; }
+    .blogpostscontent .card p {
+      width: 80%; }
+    .blogpostscontent .card .date {
+      color: white;
+      font-size: 12px;
+      opacity: 0.9;
+      font-weight: lighter; }
+    .blogpostscontent .card span {
+      font-size: 10px;
+      opacity: 0.9;
+      padding-top: 1px; }
+  .blogpostscontent a {
+    margin-top: 20px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold; }
+
 /*# sourceMappingURL=style.css.map */
