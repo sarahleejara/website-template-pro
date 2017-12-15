@@ -353,36 +353,18 @@ footer{
       opacity:0.9;
       padding-top:1px;
     }
-
-
   }
+}
   a{
     margin-top:20px;
     color:black;
     text-transform:uppercase;
     font-weight:bold;
   }
-
-}
-<<<<<<< HEAD
-// Minimal code
-
-.foot{
-  img{
-    padding-right: 10px;
-    width: 30px;
-  }
-  small{
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 10px;
-=======
-
 // Minimal page specific styling
 .minimal{
   nav{
     padding:30px 0px 16px 0;
-
     a{
       color:grey;
       font-weight:bold;
@@ -395,8 +377,6 @@ footer{
     height:auto;
     text-align:left;
     padding:40px 0px 60px 0px;
-
-
     h3{
       font-size:2.35rem;
       font-weight:bold;
@@ -413,7 +393,16 @@ footer{
         padding-bottom: 15px;
       }
     }
-
->>>>>>> 2059a8693a59b3482290ad8e3abfdeac49a13b47
+  }
+}
+.foot{
+  img{
+    padding-right: 10px;
+    width: 30px;
+  }
+  small{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 10px;
   }
 }
