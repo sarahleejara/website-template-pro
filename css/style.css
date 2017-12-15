@@ -321,4 +321,15 @@ a {
   letter-spacing: 2px;
   font-size: 10px; }
 
+.desk-box {
+  height: 700px;
+  background-image: url(../images/desk-box.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.blue {
+  background-color: rgba(1, 27, 255, 0.8);
+  height: 100%; }
+
 /*# sourceMappingURL=style.css.map */
