@@ -428,7 +428,11 @@ footer{
 }
 
 // About us code
-
+.about-us{
+  .upper-divider{
+    margin-bottom: 20px;
+  }
+}
 .desk-box{
   height: 700px;
   background-image: url(../images/desk-box.jpg);
@@ -461,4 +465,9 @@ footer{
   rgba(1,27,255,0.6),
   rgba(1,27,255,0.6)),
   url("../images/231§43.jpg");
+.b2{
+  height: 500px;
+}
+.b3{
+  height: 1000px;
 }
