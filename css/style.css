@@ -283,19 +283,12 @@ footer {
       font-size: 10px;
       opacity: 0.9;
       padding-top: 1px; }
-  .blogpostscontent a {
-    margin-top: 20px;
-    color: black;
-    text-transform: uppercase;
-    font-weight: bold; }
 
-.foot img {
-  padding-right: 10px;
-  width: 30px; }
-.foot small {
+a {
+  margin-top: 20px;
+  color: black;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 10px; }
+  font-weight: bold; }
 
 .minimal nav {
   padding: 30px 0px 16px 0; }
@@ -319,5 +312,13 @@ footer {
   .minimal .features .tools-main .icons {
     font-size: 67px;
     padding-bottom: 15px; }
+
+.foot img {
+  padding-right: 10px;
+  width: 30px; }
+.foot small {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 10px; }
 
 /*# sourceMappingURL=style.css.map */
