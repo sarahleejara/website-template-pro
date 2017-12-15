@@ -440,3 +440,25 @@ footer{
   background-color: rgba(1, 27, 255, 0.8);
   height: 100%;
 }
+
+.subscribe{
+  height:150px;
+  background:linear-gradient(
+  rgba(1,27,255,0.6),
+  rgba(1,27,255,0.6)),
+  url("../images/231§43.jpg");
+  background-position:center -450px;
+  color:white;
+  h2{
+    font-size:2.60rem;
+
+  }
+}
+
+.form{
+  height:275px;
+  background:linear-gradient(
+  rgba(1,27,255,0.6),
+  rgba(1,27,255,0.6)),
+  url("../images/231§43.jpg");
+}
