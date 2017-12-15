@@ -334,6 +334,9 @@ a {
   letter-spacing: 2px;
   font-size: 10px; }
 
+.about-us .upper-divider {
+  margin-bottom: 20px; }
+
 .desk-box {
   height: 700px;
   background-image: url(../images/desk-box.jpg);
@@ -344,5 +347,11 @@ a {
 .blue {
   background-color: rgba(1, 27, 255, 0.8);
   height: 100%; }
+
+.b2 {
+  height: 500px; }
+
+.b3 {
+  height: 1000px; }
 
 /*# sourceMappingURL=style.css.map */
