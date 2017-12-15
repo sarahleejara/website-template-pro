@@ -1,2 +1,2 @@
 # website-template-pro
-https://sarahleejara.github.io/website-template-pro/main.html
+https://sarahleejara.github.io/website-template-pro/html/main.html
