@@ -288,4 +288,22 @@ footer {
     text-transform: uppercase;
     font-weight: bold; }
 
+.minimal nav {
+  padding-bottom: 16px; }
+.minimal .features {
+  height: auto;
+  text-align: left;
+  padding: 40px 0px 100px 0px; }
+  .minimal .features h3 {
+    font-size: 2.35rem;
+    font-weight: bold;
+    letter-spacing: 1.1px; }
+  .minimal .features h4 {
+    color: purple;
+    font-size: 1.20rem;
+    font-weight: lighter; }
+  .minimal .features .tools-main .icons {
+    font-size: 67px;
+    padding-bottom: 15px; }
+
 /*# sourceMappingURL=style.css.map */

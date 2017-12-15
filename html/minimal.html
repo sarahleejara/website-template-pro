@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Main</title>
+    <title>Minimal</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
@@ -13,11 +13,11 @@
   <body class="minimal">
   <!-- début navigateur -->
   <nav class="navbar navbar-light container">
-    <div class="row col-12">
+    <div class="row-fluid col-12 d-flex justify-content-between">
     <a class="navbar-brand col-2" href="#">
       <img src="../images/logo-blue.png" width="110" alt="">
     </a>
-    <ul class="nav col-8">
+    <ul class="nav col-7">
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
         <div class="dropdown-menu">
@@ -67,10 +67,61 @@
         </div>
       </li>
     </ul>
-    <button type="button" class="btn btn-primary purchase">purchase now</button>
+    <!-- <button type="button" class="btn btn-primary purchase">purchase now</button> -->
     </div>
   </nav>
   <!-- fin du navigateur -->
+
+<!-- features section -->
+<div class="features">
+  <div class="container features d-flex justify-content-around flex-column">
+    <div class="row text-center">
+      <div class="col-4 tools-main">
+        <i class="fab fa-whmcs icons" style="color:#622DF8"></i>
+        <h6>customizable</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suspendisse variusenim in eros elementum tristique.</p>
+      </div>
+      <div class="col-4 tools-main">
+        <i class="fas fa-laptop icons" style="color:#622DF8"></i>
+        <h6>responsive theme</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suspendisse variusenim in eros elementum tristique.</p>
+      </div>
+      <div class="col-4 tools-main">
+        <i class="fas fa-anchor icons" style="color:#622DF8"></i>
+        <h6>exclusive design</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suspendisse variusenim in eros elementum tristique.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <br>
+      </div>
+      <div class="row">
+        <div class="col-6 text-center">
+          <img src="../images/23232.jpg" style="width:400px; height 500px;" alt="Nice lil laptopt">
+        </div>
+        <div class="col-6 text-align-left">
+          <h3>Enjoy Sherlock Wp</h3>
+          <br>
+          <h4 class="">Impress your clients, surprise your team</h4>
+          <br>
+          <p>I am a text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore corporis doloremque, blanditiis consequuntur maxime quo neque. </p>
+          <br>
+          <br>
+          <br>
+          <button type="button" class="btn btn-primary">Learn more</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End of features -->
+
 
 <!-- Fin de page -->
 <div class="container-fluid bottompage">
