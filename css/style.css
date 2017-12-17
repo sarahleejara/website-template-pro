@@ -1,12 +1,24 @@
 @charset "UTF-8";
 /* Re usable classes */
+.space {
+  padding-top: 5rem; }
+
+.pad {
+  padding: 6rem; }
+
+.pad-updown {
+  padding: 20px 0; }
+
 /* Page styling */
-.main {
+html, body {
+  width: 100%;
+  height: 100%; }
+
+body {
   font-family: "Poppins"; }
-  .main .info {
+  body .info {
     font-size: 11px; }
-    .main .info .row div {
-      border: 0.3px solid;
+    body .info .row div {
       padding: 10px 0px; }
 
 .navbar {
@@ -80,7 +92,6 @@
   margin: 0; }
 
 .features {
-  height: 700px;
   text-align: center; }
 
 .tools-main .icons {
@@ -96,7 +107,6 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 700px;
   color: #FFF; }
   .box-6 h3 {
     font-weight: bolder;
@@ -335,19 +345,36 @@ a {
   letter-spacing: 2px;
   font-size: 10px; }
 
+.about-us .info {
+  color: #FFFFFF; }
 .about-us .upper-divider {
   margin-bottom: 20px; }
+.about-us nav .nav-link {
+  color: #FFFFFF;
+  font-weight: bold; }
 
-.desk-box {
-  height: 700px;
-  background-image: url(../images/desk-box.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
+.desk {
+  background: linear-gradient(rgba(1, 27, 255, 0.8), rgba(1, 27, 255, 0.8)), url("../images/desk-box.jpg");
   background-size: cover; }
 
-.blue {
-  background-color: rgba(1, 27, 255, 0.8);
-  height: 100%; }
+.desk-box {
+  height: 700px; }
+
+.b2 {
+  height: 500px; }
+
+.tattoo {
+  background-image: url(../images/tatoo.jpg);
+  background-repeat: no-repeat; }
+
+.apple-desk {
+  background-image: url(../images/apple-desk.jpg);
+  background-repeat: no-repeat; }
+
+.b4 {
+  background: linear-gradient(rgba(70, 0, 216, 0.8), rgba(70, 0, 216, 0.8)), url("../images/hills.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .subscribe {
   height: 150px;
@@ -360,11 +387,5 @@ a {
 .form {
   height: 275px;
   background: linear-gradient(rgba(1, 27, 255, 0.6), rgba(1, 27, 255, 0.6)), url("../images/231§43.jpg"); }
-
-.b2 {
-  height: 500px; }
-
-.b3 {
-  height: 1000px; }
 
 /*# sourceMappingURL=style.css.map */
