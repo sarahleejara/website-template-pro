@@ -1,5 +1,8 @@
 @charset "UTF-8";
 /* Re usable classes */
+.upperbottom {
+  padding: 5rem 0; }
+
 .space {
   padding-top: 5rem; }
 
@@ -39,13 +42,16 @@ body {
   text-align: center;
   width: 700px; }
 
+.box-3 h3 {
+  font-size: 40px;
+  font-weight: bold; }
+
 .sub-3 {
-  height: 700px;
   color: #FFF; }
 
 .skills p {
   margin: 0;
-  padding-bottom: 5px; }
+  padding: 15px 0; }
 
 .black {
   background-color: black; }
@@ -120,9 +126,6 @@ body {
 .mont {
   background-color: rgba(0, 0, 0, 0.8); }
 
-.box-7 {
-  height: 700px; }
-
 .update-software {
   width: 700px;
   text-align: justify; }
@@ -146,7 +149,6 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
   color: #FFFFFF; }
 
 .nightsky {
