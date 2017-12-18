@@ -404,12 +404,20 @@ a {
 
 .apple-desk {
   background-image: url(../images/apple-desk.jpg);
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .b4 {
   background: linear-gradient(rgba(70, 0, 216, 0.8), rgba(70, 0, 216, 0.8)), url("../images/hills.jpg");
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  text-transform: uppercase; }
+  .b4 h3 {
+    font-weight: bold; }
+  .b4 h5 {
+    font-size: 16px;
+    letter-spacing: 1px; }
 
 .subscribe {
   height: 150px;
