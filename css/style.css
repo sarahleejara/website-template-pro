@@ -373,6 +373,28 @@ a {
 .about-us nav .nav-link {
   color: #FFFFFF;
   font-weight: bold; }
+.about-us .blogpostscontent img {
+  height: 356px; }
+.about-us .blogpostscontent h4 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black; }
+.about-us .blogpostscontent hr {
+  width: 10%; }
+.about-us .blogpostscontent h5 {
+  color: grey;
+  font-size: 95%; }
+.about-us .blogpostscontent ul {
+  padding-left: 30%;
+  width: 70%;
+  color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-top: 40px; }
 
 .desk {
   background: linear-gradient(rgba(1, 27, 255, 0.8), rgba(1, 27, 255, 0.8)), url("../images/desk-box.jpg");
@@ -408,5 +430,12 @@ a {
 .form {
   height: 275px;
   background: linear-gradient(rgba(1, 27, 255, 0.6), rgba(1, 27, 255, 0.6)), url("../images/231§43.jpg"); }
+
+#seethrough {
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 2px white;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.2px; }
 
 /*# sourceMappingURL=style.css.map */
