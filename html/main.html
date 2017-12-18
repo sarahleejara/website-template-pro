@@ -21,11 +21,11 @@
     </div>
     <!-- début navigateur -->
     <nav class="navbar navbar-light container">
-      <div class="row col-12">
-      <a class="navbar-brand col-2" href="#">
+      <div class="row col-12 justify-content-between">
+      <a class="navbar-brand" href="#">
         <img src="../images/logo-blue.png" width="110" alt="">
       </a>
-      <ul class="nav col-8">
+      <ul class="nav">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
           <div class="dropdown-menu">
@@ -75,20 +75,21 @@
           </div>
         </li>
       </ul>
-      <button type="button" class="btn btn-primary purchase">purchase now</button>
+      <button type="button" class="btn btn-primary purchasenow">purchase now</button>
       </div>
     </nav>
     <!-- fin du navigateur -->
-    <div class="container-fluid">
+    <div class="container-fluid box-1">
       <div class="row justify-content-center">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img class="d-block w-100" src="../images/main-pic.jpg" alt="First slide">
-              <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption">
+                <i class="fas fa-circle-notch"></i>
                 <h1>created with passion</h1>
                 <p>the perfecti html to get you started</p>
-                <div class=""><a href="#">purchase now</a></div>
+                <button type="button" class="btn btn-primary">purchase now</button>
               </div>
             </div>
           </div>
@@ -131,19 +132,21 @@
 
         <div class="row sub-3">
           <div class="col pad d-flex align-items-around purple">
-            <div class="container">
-              <h5>Your idea needs a great website</h5>
-              <h3>Perfect template for your company</h3>
+            <div class="container d-flex flex-column justify-content-around">
+              <div>
+                <h5>Your idea needs a great website</h5>
+                <h3>Perfect template for your company</h3>
+              </div>
               <p style="color: lightgrey;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               <div class="explore"><a href="#">explore now</a></div>
             </div>
           </div>
           <!-- colonne black     -->
           <div class="col pad d-flex align-items-around black">
-            <div class="container">
+            <div class="container" style="padding-right: 2rem">
               <h5>Your idea needs a great website</h5>
               <h3>We are here to support all your needs</h3>
-              <div class="skills">
+              <div class="skills container">
                 <div class="row justify-content-between">
                   <p>Coding</p>
                   <p>80%</p>

@@ -12,7 +12,7 @@
   </head>
   <body class="about-us">
     <div class="desk">
-        <div class="container-fluid border info">
+        <div class="container-fluid borderbottom info">
           <div class="row">
             <div class="col-1">&nbsp;</div>
             <div class="col-2"><i class="fas fa-phone"></i> +1003554668</div>
@@ -21,12 +21,12 @@
           </div>
         </div>
         <!-- début navigateur -->
-        <nav class="navbar navbar-light container">
-          <div class="row col-12">
-            <a class="navbar-brand col-2" href="#">
-              <img src="../images/logo-blue.png" width="110" alt="">
+        <nav class="navbar navbar-light container-fluid d-flex justify-content-center borderbottom">
+          <div class="row container justify-content-between align-items-center">
+            <a class="navbar-brand" href="#">
+              <img src="../images/Setup-logo-white.png" width="110" alt="">
             </a>
-            <ul class="nav col-8">
+            <ul class="nav">
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
                 <div class="dropdown-menu">
@@ -76,7 +76,7 @@
                 </div>
               </li>
             </ul>
-            <button type="button" class="btn btn-primary purchase">purchase now</button>
+            <!-- <button type="button" class="btn btn-primary purchase">purchase now</button> -->
           </div>
         </nav>
         <!-- fin du navigateur -->
@@ -173,6 +173,7 @@
         </div>
       </div>
     </div>
+    <!-- row with numbers purple background -->
     <div class="b4 container-fluid justify-content-center d-flex">
       <div class="row container text-center">
           <div class="col">
@@ -192,6 +193,93 @@
             <h5>lines of code</h5>
           </div>
         </div>
+    </div>
+    <!-- make-it with cards  -->
+    <div class="b5">
+      <div class="row space flex-column align-items-center make-it">
+        <h5>We work to make it real!</h5>
+        <h3>our latest blog posts</h3>
+        <span class="upper-divider"></span>
+      </div>
+      <div class="card-deck">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Online Sales and financial reports</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <hr>
+            <p class="card-text foot"><img src="../images/aa1e9d720c4f7ae16f4466b89b5904b3.jpg" alt="Doriane"><small>Dorian HOXHA</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Mobile first appraoch to websites</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <hr>
+            <p class="card-text foot"><img src="../images/aa1e9d720c4f7ae16f4466b89b5904b3.jpg" alt="Doriane"><small>Dorian HOXHA</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">a new generation of wordpress</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <hr>
+            <p class="card-text foot"><img src="../images/aa1e9d720c4f7ae16f4466b89b5904b3.jpg" alt="Doriane"><small>Admin</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- carousel twitter quotes -->
+    <div class="testimonials align-items-center justify-content-center d-flex text-center">
+      <div class="down row col-10 justify-content-center">
+        <div class="col-8 d-flex align-items-center justify-content-center">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active secondary"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner ">
+              <div class="carousel-item  active">
+                <h2><i class="fab fa-twitter"></i></h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur iure ducimus delectus, quasi iusto. Beatae quasi, necessitatibus non, cupiditate odit quibusdam, fugiat soluta quod nemo assumenda quae perspiciatis impedit tempore.</p>
+                <h4>Tony Marchin,</h4>
+                <h5>Co founder</h5>
+              </div>
+              <div class="carousel-item">
+                <h2><i class="fab fa-twitter"></i></h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur iure ducimus delectus, quasi iusto. Beatae quasi, necessitatibus non, cupiditate odit quibusdam, fugiat soluta quod nemo assumenda quae perspiciatis impedit tempore.</p>
+                <h4>Tony Marchin,</h4>
+                <h5>Co founder</h5>
+              </div>
+              <div class="carousel-item">
+                <h2><i class="fab fa-twitter"></i></h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur iure ducimus delectus, quasi iusto. Beatae quasi, necessitatibus non, cupiditate odit quibusdam, fugiat soluta quod nemo assumenda quae perspiciatis impedit tempore.</p>
+                <h4>Tony Marchin,</h4>
+                <h5>Co founder</h5>
+              </div>
+              <div class="carousel-item">
+                <h2><i class="fab fa-twitter"></i></h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur iure ducimus delectus, quasi iusto. Beatae quasi, necessitatibus non, cupiditate odit quibusdam, fugiat soluta quod nemo assumenda quae perspiciatis impedit tempore.</p>
+                <h4>Tony Marchin,</h4>
+                <h5>Co founder</h5>
+              </div>
+              <div class="carousel-item">
+                <h2><i class="fab fa-twitter"></i></h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur iure ducimus delectus, quasi iusto. Beatae quasi, necessitatibus non, cupiditate odit quibusdam, fugiat soluta quod nemo assumenda quae perspiciatis impedit tempore.</p>
+                <h4>Tony Marchin,</h4>
+                <h5>Co founder</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- girl with laptop -->
     <div class="subscribe d-flex justify-content-center align-items-end">
