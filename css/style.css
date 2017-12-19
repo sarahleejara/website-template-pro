@@ -535,4 +535,35 @@ a {
   border: solid 1px rgba(255, 255, 255, 0.5);
   padding: 5px 15px; }
 
+.section-style .prefooter p, .section-style .prefooter a {
+  margin: 0;
+  color: #FFFFFF; }
+.section-style .b8 h6 {
+  font-weight: bold;
+  font-size: 20px; }
+.section-style .b8 p {
+  font-size: 15px;
+  margin: 8px 0; }
+.section-style .learnmore {
+  border: 1px solid #622DF8;
+  border-radius: 3px;
+  padding: 1rem;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  background-color: #622DF8; }
+.section-style .posts a {
+  margin: 0; }
+.section-style .posts h6 {
+  font-weight: bold;
+  font-size: 17px; }
+.section-style .posts p {
+  font-size: 14px;
+  color: #A2A2A2; }
+.section-style .update-software h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: left; }
+
 /*# sourceMappingURL=style.css.map */
