@@ -1,45 +1,513 @@
-/*
-Error: Invalid CSS after "}": expected "}", was ""
-        on line 680 of scss/style.scss
+@charset "UTF-8";
+/* Re usable classes */
+html, body {
+  width: 100%; }
 
-675:   color:white;
-676:   margin-top:30px;
-677:   border:solid 1px rgba(255,255,255,0.5) ;
-678:   padding:5px 15px ;
-679: }
+.upperbottom {
+  padding: 5rem 0; }
 
-Backtrace:
-scss/style.scss:680
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1278:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1208:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1203:in `tok!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:679:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:670:in `ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:696:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:689:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:137:in `stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:41:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/engine.rb:414:in `_to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:320:in `block in watch'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 680 of scss/style.scss\A \A 675:   color:white;\A 676:   margin-top:30px;\A 677:   border:solid 1px rgba(255,255,255,0.5) ;\A 678:   padding:5px 15px ;\A 679: }"; }
+.space {
+  padding-top: 5rem; }
+
+.pad {
+  padding: 6rem; }
+
+.pad-updown {
+  padding: 20px 0; }
+
+.purchasenow {
+  height: 40px; }
+
+.borderbottom {
+  border-bottom: 1px solid rgba(242, 242, 242, 0.32); }
+
+.greyback {
+  background-color: #f5f5f5; }
+
+/* Page styling */
+html, body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  font-family: "Poppins"; }
+  body .info {
+    font-size: 11px; }
+    body .info .row div {
+      padding: 10px 0px; }
+
+.navbar {
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 20px 16px; }
+  .navbar a {
+    margin: 0; }
+
+.dropdown-item {
+  font-size: 12px;
+  text-transform: capitalize; }
+
+.carousel-caption {
+  bottom: 35%; }
+  .carousel-caption h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .carousel-caption p {
+    text-transform: uppercase;
+    font-weight: bold; }
+
+.purple-logo a, .purple-logo i {
+  color: #622DF8; }
+
+.box-2, .features {
+  background-color: #F6F6F6; }
+
+.setup {
+  text-align: center;
+  width: 700px; }
+
+.box-3 h3 {
+  font-size: 40px;
+  font-weight: bold; }
+
+.sub-3 {
+  color: #FFF; }
+
+.skills p {
+  margin: 0;
+  padding: 15px 0; }
+
+.black {
+  background-color: black; }
+
+.purple {
+  background-color: #622DF8; }
+
+.explore {
+  border: 2px solid #FFF;
+  border-radius: 3px;
+  width: 170px;
+  text-align: center;
+  padding: 7px;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1.3px; }
+  .explore a {
+    color: #FFF;
+    text-transform: uppercase; }
+
+.box-4 {
+  text-align: center;
+  height: 1000px; }
+
+.sub4 {
+  margin-bottom: 20px; }
+
+.make-it h3, .make-it h5 {
+  margin: 0; }
+.make-it h5 {
+  font-size: 15px; }
+.make-it h3 {
+  padding: 10px 0;
+  text-transform: capitalize;
+  font: 40px bold, sans-serif; }
+
+.upper-divider {
+  height: 3px;
+  width: 100px;
+  margin-top: 10px;
+  background-color: #622DF8; }
+
+.pf h4 {
+  margin: 0; }
+
+.features {
+  text-align: center; }
+
+.tools-main .icons {
+  font-size: 45px;
+  padding-bottom: 10px; }
+.tools-main h6 {
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 25px; }
+
+.box-6 {
+  background-image: url(../images/montagne.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFF; }
+  .box-6 h3 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px; }
+
+.montain {
+  width: 300px;
+  height: 70%; }
+
+.mont {
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.update-software {
+  text-align: justify; }
+  .update-software h5 {
+    font-size: 25px;
+    color: lightgrey; }
+  .update-software h3 {
+    font-size: 35px;
+    font-weight: bold; }
+  .update-software p {
+    line-height: 30px; }
+
+.divider-ipad {
+  margin: 30px 0 20px 0;
+  background-color: #622DF8;
+  width: 50px;
+  height: 3px; }
+
+.box-8 {
+  background-image: url(http://newthemes.themeple.co/setup/wp-content/uploads/2017/09/blurbg13.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF; }
+
+.nightsky {
+  border-radius: 3px;
+  margin-right: 15px;
+  padding: 20px 0; }
+
+.btlearn {
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  width: 120px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-align: center; }
+
+.learn-white {
+  background-color: #FFF; }
+  .learn-white a {
+    color: grey; }
+
+.learn-mont a {
+  color: #FFFFFF; }
+
+.learn-purple {
+  background-color: #622DF8;
+  border-color: #622DF8; }
+  .learn-purple a {
+    color: #FFFFFF; }
+
+/* Bottom page pre footer styling */
+.bottompage {
+  background-color: #1b1d1f;
+  color: #777777;
+  padding-top: 60px;
+  font-size: 17px; }
+  .bottompage img {
+    height: 13%;
+    width: 13%;
+    margin-bottom: 20px; }
+  .bottompage h3 {
+    color: white;
+    text-transform: uppercase;
+    font-size: inherit;
+    margin-bottom: 40px; }
+  .bottompage a {
+    color: inherit; }
+    .bottompage a:hover {
+      font-weight: bold;
+      text-decoration: none;
+      transition-duration: 0.2s; }
+  .bottompage ul {
+    padding: 0;
+    margin: 0; }
+  .bottompage li {
+    list-style-type: none;
+    padding-bottom: 12px; }
+  .bottompage .minititle {
+    font-size: 93%; }
+
+.date {
+  width: 100%;
+  border-top: solid 1px #777777;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-top: 2px; }
+
+.white {
+  color: #FFFFFF; }
+
+.logos img {
+  height: 60%;
+  padding: 12px 0px; }
+
+/* footer styling */
+footer {
+  background-color: #131516;
+  color: grey;
+  height: 70px;
+  font-family: "Poppins"; }
+
+.socials {
+  font-size: 17px; }
+  .socials p, .socials a {
+    margin: 0; }
+  .socials a {
+    color: grey; }
+
+.testimonials {
+  height: 500px; }
+  .testimonials h4 {
+    font-size: 14px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .testimonials h5 {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.3); }
+
+.carousel-indicators {
+  bottom: -40px; }
+  .carousel-indicators .active {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 13px;
+    width: 13px; }
+
+.carousel-indicators li {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  height: 10px;
+  width: 10px; }
+
+.blogposts {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 50px 0; }
+
+.infos h4 {
+  font-size: 13px; }
+.infos h2 {
+  font-size: 30px;
+  font-weight: bold; }
+
+.blogpostscontent {
+  margin: 0 auto;
+  width: 80%; }
+  .blogpostscontent h4 {
+    color: rgba(0, 0, 0, 0.4); }
+  .blogpostscontent hr {
+    width: 30%;
+    height: 2px;
+    background-color: blue; }
+  .blogpostscontent .card {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.2px; }
+    .blogpostscontent .card p {
+      width: 80%; }
+    .blogpostscontent .card .date {
+      color: white;
+      font-size: 12px;
+      opacity: 0.9;
+      font-weight: lighter; }
+    .blogpostscontent .card span {
+      font-size: 10px;
+      opacity: 0.9;
+      padding-top: 1px; }
+
+a {
+  margin-top: 20px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.minimal nav {
+  padding: 10px 0px 16px 0; }
+  .minimal nav a {
+    color: grey;
+    font-weight: bold; }
+.minimal button {
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  padding: 6px 16px; }
+.minimal .bordertop {
+  border-top: solid 3px rgba(0, 0, 0, 0.01); }
+.minimal .features {
+  height: auto;
+  text-align: left;
+  padding: 40px 0px 60px 0px; }
+  .minimal .features p {
+    color: rgba(0, 0, 0, 0.6); }
+  .minimal .features h3 {
+    font-size: 2.35rem;
+    font-weight: bold;
+    letter-spacing: 1.1px; }
+  .minimal .features h4 {
+    color: purple;
+    font-size: 1.20rem;
+    font-weight: lighter; }
+  .minimal .features .tools-main .icons {
+    font-size: 67px;
+    padding-bottom: 15px; }
+.minimal .box-3 h5 {
+  color: rgba(255, 255, 255, 0.9); }
+.minimal .box-3 h3 {
+  font-size: 2.25rem; }
+.minimal .box-3 .light {
+  color: rgba(255, 255, 255, 0.6); }
+
+.foot img {
+  padding-right: 10px;
+  width: 30px; }
+.foot small {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 10px; }
+
+.about-us .info {
+  color: #FFFFFF; }
+.about-us .upper-divider {
+  margin-bottom: 20px; }
+.about-us nav .nav-link {
+  color: #FFFFFF;
+  font-weight: bold; }
+.about-us .blogpostscontent img {
+  height: 356px; }
+.about-us .blogpostscontent h4 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black; }
+.about-us .blogpostscontent hr {
+  width: 10%; }
+.about-us .blogpostscontent h5 {
+  color: grey;
+  font-size: 95%; }
+.about-us .blogpostscontent ul {
+  padding-left: 30%;
+  width: 70%;
+  color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-top: 40px; }
+.about-us .purchase {
+  color: #FFFFFF;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  padding: 15px 30px; }
+
+.desk {
+  background: linear-gradient(rgba(1, 27, 255, 0.8), rgba(1, 27, 255, 0.8)), url("../images/desk-box.jpg");
+  background-size: cover; }
+
+.box-blue {
+  color: #FFFFFF; }
+  .box-blue h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: bold; }
+  .box-blue h5 {
+    color: lightblue;
+    font-weight: bold; }
+  .box-blue h1, .box-blue h5 {
+    margin: 0; }
+
+.b2 {
+  height: 500px; }
+
+.tattoo {
+  background-image: url(../images/tatoo.jpg);
+  background-repeat: no-repeat; }
+
+.apple-desk {
+  background-image: url(../images/apple-desk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.b4 {
+  background: linear-gradient(rgba(70, 0, 216, 0.8), rgba(70, 0, 216, 0.8)), url("../images/hills.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  text-transform: uppercase; }
+  .b4 h3 {
+    font-weight: bold; }
+  .b4 h5 {
+    font-size: 16px;
+    letter-spacing: 1px; }
+
+.subscribe {
+  height: 150px;
+  background: linear-gradient(rgba(1, 27, 255, 0.6), rgba(1, 27, 255, 0.6)), url("../images/231§43.jpg");
+  background-position: center -450px;
+  color: white; }
+  .subscribe h2 {
+    font-size: 2.60rem; }
+
+.form {
+  height: 275px;
+  background: linear-gradient(rgba(1, 27, 255, 0.6), rgba(1, 27, 255, 0.6)), url("../images/231§43.jpg"); }
+
+#seethrough {
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 2px white;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.2px; }
+
+.agency .b3 {
+  background-color: #F5F5F5; }
+.agency .features {
+  background-color: #FFFFFF; }
+.agency .workonlaptop {
+  background: url("../images/workonlaptop.jpg") no-repeat;
+  background-size: cover; }
+.agency .apple {
+  background: url("../images/apple-desk.jpg") no-repeat;
+  background-size: cover; }
+.agency .bord {
+  border: solid rgba(255, 255, 255, 0.5) 0.5px; }
+.agency .bordhard {
+  border: solid white 1px; }
+.agency .info {
+  color: #FFFFFF; }
+.agency .upper-divider {
+  margin-bottom: 20px; }
+.agency .fixed {
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+.agency nav .nav-link {
+  color: #FFFFFF;
+  font-weight: bold; }
+.agency .social {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row; }
+  .agency .social a {
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 0 10px; }
+    .agency .social a :hover {
+      color: black; }
+
+.trans {
+  color: white;
+  margin-top: 30px;
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  padding: 5px 15px; }
+
+/*# sourceMappingURL=style.css.map */
