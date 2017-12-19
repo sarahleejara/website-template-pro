@@ -504,7 +504,7 @@ footer{
       justify-content:space-around;
       list-style-type:none;
       padding-top:40px;
-  
+
       }
     }
   .purchase{
@@ -594,4 +594,18 @@ footer{
   color:white;
   text-transform:uppercase;
   letter-spacing:1.2px;
+}
+
+
+// Digital agency Page
+
+.agency{
+  .workonlaptop{
+    background:url('../images/workonlaptop.jpg') no-repeat;
+    background-size:cover;
+  }
+  .apple{
+    background:url('../images/apple-desk.jpg') no-repeat;
+    background-size:cover;
+  }
 }

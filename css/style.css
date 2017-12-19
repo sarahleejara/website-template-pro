@@ -460,4 +460,11 @@ a {
   text-transform: uppercase;
   letter-spacing: 1.2px; }
 
+.agency .workonlaptop {
+  background: url("../images/workonlaptop.jpg") no-repeat;
+  background-size: cover; }
+.agency .apple {
+  background: url("../images/apple-desk.jpg") no-repeat;
+  background-size: cover; }
+
 /*# sourceMappingURL=style.css.map */
