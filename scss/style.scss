@@ -23,6 +23,9 @@ html,body{
 .borderbottom{
   border-bottom:1px solid rgba(242, 242, 242, 0.32);
 }
+.greyback{
+  background-color: #f5f5f5;
+}
 /* Page styling */
 html, body{
   width: 100%;
@@ -176,14 +179,13 @@ body{
   background-color: rgba(0, 0, 0, 0.8);
 }
 .update-software{
-  width: 700px;
   text-align: justify;
   h5{
-    font-size: 30px;
+    font-size: 25px;
     color: lightgrey;
   }
   h3{
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
   }
   p{
@@ -602,11 +604,19 @@ footer{
 // Digital agency Page
 
 .agency{
+
   .backgroundopacity{
     z-index:9999;
     background:linear-gradient(
     rgba(0,0,0,0.7),
     rgba(0,0,0,0.7)),
+
+  .b3{
+    background-color: #F5F5F5;
+  }
+  .features{
+    background-color: $white;
+
   }
   .workonlaptop{
     background:
