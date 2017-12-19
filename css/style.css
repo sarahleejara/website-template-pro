@@ -465,6 +465,14 @@ a {
   text-transform: uppercase;
   letter-spacing: 1.2px; }
 
+.agency .carousel-caption h4, .agency .carousel-caption h1, .agency .carousel-caption a {
+  position: relative; }
+.agency .carousel-caption h4 {
+  top: 25px; }
+.agency .carousel-caption h1 {
+  top: 50px; }
+.agency .carousel-caption a {
+  top: 90px; }
 .agency .notsobigpls {
   font-size: 45px;
   width: 40%; }
