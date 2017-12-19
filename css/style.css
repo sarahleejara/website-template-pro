@@ -465,6 +465,15 @@ a {
   text-transform: uppercase;
   letter-spacing: 1.2px; }
 
+.agency .notsobigpls {
+  font-size: 45px;
+  width: 40%; }
+.agency .bluez {
+  color: lightblue;
+  font-size: 1.2rem;
+  width: 70%;
+  padding-top: 30px;
+  margin-top: 200px; }
 .agency .b3 {
   background-color: #F5F5F5; }
 .agency .features {
