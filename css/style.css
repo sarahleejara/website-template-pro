@@ -21,6 +21,9 @@ html, body {
 .borderbottom {
   border-bottom: 1px solid rgba(242, 242, 242, 0.32); }
 
+.greyback {
+  background-color: #f5f5f5; }
+
 /* Page styling */
 html, body {
   width: 100%;
@@ -149,13 +152,12 @@ body {
   background-color: rgba(0, 0, 0, 0.8); }
 
 .update-software {
-  width: 700px;
   text-align: justify; }
   .update-software h5 {
-    font-size: 30px;
+    font-size: 25px;
     color: lightgrey; }
   .update-software h3 {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold; }
   .update-software p {
     line-height: 30px; }
@@ -463,6 +465,10 @@ a {
   text-transform: uppercase;
   letter-spacing: 1.2px; }
 
+.agency .b3 {
+  background-color: #F5F5F5; }
+.agency .features {
+  background-color: #FFFFFF; }
 .agency .workonlaptop {
   background: url("../images/workonlaptop.jpg") no-repeat;
   background-size: cover; }
