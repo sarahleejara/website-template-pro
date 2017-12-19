@@ -801,4 +801,28 @@ footer{
       text-align: left;
     }
   }
+  .img-row{
+    .col{
+      padding: 0;
+    }
+    img{
+      width: 100%;
+    }
+  }
+}
+.beach{
+  background:linear-gradient(
+  rgba(0,0,0,0.6),
+  rgba(0,0,0,0.6)),
+  url("../images/beach.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.photography{
+  nav{
+    .nav-link{
+      color: $white;
+      font-weight: bold;
+    }
+  }
 }
