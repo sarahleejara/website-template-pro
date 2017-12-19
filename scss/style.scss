@@ -602,45 +602,68 @@ footer{
 // Digital agency Page
 
 .agency{
+  .backgroundopacity{
+    z-index:9999;
+    background:linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+  }
   .workonlaptop{
-    background:url('../images/workonlaptop.jpg') no-repeat;
+    background:
+    url('../images/workonlaptop.jpg') no-repeat;
     background-size:cover;
   }
   .apple{
     background:url('../images/apple-desk.jpg') no-repeat;
     background-size:cover;
   }
-  .toptop{
-    width:100%;
-    z-index:9999;
-    position:absolute;
-    top:0;
-    color:white;
-    a{
-      color:white;
-    }
-    .socialz{
-      display:flex;
-      flex-direction:row;
-      list-style-type:none;
-      li{
-        padding:0 12px;
-      }
-      nav{
-        padding-left:100px;
 
-      }
-
-    }
     .bord{
       border:solid rgba(255,255,255,0.5) 0.5px;
+    }
+    .bordhard{
+      border:solid rgba(255,255,255,1) 1px;
+    }
 
+
+  .info{
+    color: $white;
+  }
+  .upper-divider{
+    margin-bottom: 20px;
+  }
+  .fixed{
+    z-index:9999;
+    position:fixed;
+    top:0;
+    width:100%;
+  }
+  nav{
+    .nav-link{
+      color: $white;
+      font-weight: bold;
     }
   }
+  .social{
+    list-style-type: none;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction:row;
+    a{
+      font-size:18px;
+      color:$white;
+      padding:0 10px;
+      :hover{
+        color:black;
+      }
+    }
+  }
+
 }
 .trans{
   color:white;
   margin-top:30px;
-  border:solid 1px white;
-  background-color:rgba(0,0,0,0);
+  border:solid 1px rgba(255,255,255,0.5) ;
+  padding:5px 15px ;
 }
