@@ -744,25 +744,30 @@ footer{
 }
 
 
-
 // Section style
 .section-style{
+
   .prefooter{
+
     p, a{
       margin: 0;
       color: $white;
     }
   }
+
   .b8{
+
     h6{
       font-weight: bold;
       font-size: 20px;
     }
+
     p{
       font-size: 15px;
       margin: 8px 0;
     }
   }
+
   .learnmore{
     border: 1px solid $purple;
     border-radius: 3px;
@@ -772,6 +777,7 @@ footer{
     color: $white;
     background-color: $purple;
   }
+
   .posts{
     a{
       margin: 0;
@@ -784,7 +790,8 @@ footer{
       font-size: 14px;
       color: #A2A2A2;
     }
-    }
+  }
+
   .update-software{
     h3{
       text-transform: uppercase;
@@ -793,5 +800,4 @@ footer{
       text-align: left;
     }
   }
-
 }
