@@ -600,4 +600,13 @@ a {
 .section-style .img-row img {
   width: 100%; }
 
+.beach {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/beach.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.photography nav .nav-link {
+  color: #FFFFFF;
+  font-weight: bold; }
+
 /*# sourceMappingURL=style.css.map */
