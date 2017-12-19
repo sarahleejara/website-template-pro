@@ -6,6 +6,9 @@ html, body {
 .upperbottom {
   padding: 5rem 0; }
 
+.smallspace {
+  padding: 2rem; }
+
 .space {
   padding-top: 5rem; }
 
@@ -484,6 +487,11 @@ a {
   margin-top: 200px; }
 .agency .b3 {
   background-color: #F5F5F5; }
+  .agency .b3 h6 {
+    font-weight: bold; }
+  .agency .b3 p {
+    font-size: 14px;
+    color: #8A8A8A; }
 .agency .features {
   background-color: #FFFFFF; }
 .agency .workonlaptop {

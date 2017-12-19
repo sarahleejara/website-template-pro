@@ -8,6 +8,9 @@ html,body{
 .upperbottom{
   padding: 5rem 0;
 }
+.smallspace{
+  padding: 2rem;
+}
 .space{
   padding-top: 5rem;
 }
@@ -631,10 +634,16 @@ footer{
   }
   .b3{
     background-color: #F5F5F5;
+    h6{
+      font-weight: bold;
+    }
+    p{
+      font-size: 14px;
+      color: #8A8A8A;
+    }
   }
   .features{
     background-color: $white;
-
   }
   .workonlaptop{
     background:
@@ -645,15 +654,12 @@ footer{
     background:url('../images/apple-desk.jpg') no-repeat;
     background-size:cover;
   }
-
     .bord{
       border:solid rgba(255,255,255,0.5) 0.5px;
     }
     .bordhard{
       border:solid rgba(255,255,255,1) 1px;
     }
-
-
   .info{
     color: $white;
   }
