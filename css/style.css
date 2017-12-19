@@ -565,6 +565,10 @@ a {
   .topcontent .boxtwo {
     height: 500px; }
 
+.section-style .card-text h5 {
+  font-weight: bold; }
+.section-style .card-text h5, .section-style .card-text p {
+  padding-left: 20px; }
 .section-style .prefooter p, .section-style .prefooter a {
   margin: 0;
   color: #FFFFFF; }

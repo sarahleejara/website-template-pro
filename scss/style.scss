@@ -747,6 +747,14 @@ footer{
 
 // Section style
 .section-style{
+  .card-text{
+    h5{
+      font-weight:bold;
+    }
+    h5,p{
+      padding-left:20px;
+    }
+  }
 
   .prefooter{
 
