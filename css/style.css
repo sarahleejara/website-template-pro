@@ -1,5 +1,8 @@
 @charset "UTF-8";
 /* Re usable classes */
+html, body {
+  width: 100%; }
+
 .upperbottom {
   padding: 5rem 0; }
 
@@ -466,5 +469,29 @@ a {
 .agency .apple {
   background: url("../images/apple-desk.jpg") no-repeat;
   background-size: cover; }
+.agency .toptop {
+  width: 100%;
+  z-index: 9999;
+  position: absolute;
+  top: 0;
+  color: white; }
+  .agency .toptop a {
+    color: white; }
+  .agency .toptop .socialz {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; }
+    .agency .toptop .socialz li {
+      padding: 0 12px; }
+    .agency .toptop .socialz nav {
+      padding-left: 100px; }
+  .agency .toptop .bord {
+    border: solid rgba(255, 255, 255, 0.5) 0.5px; }
+
+.trans {
+  color: white;
+  margin-top: 30px;
+  border: solid 1px white;
+  background-color: rgba(0, 0, 0, 0); }
 
 /*# sourceMappingURL=style.css.map */
