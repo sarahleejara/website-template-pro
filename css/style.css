@@ -595,5 +595,9 @@ a {
   font-weight: bold;
   font-size: 35px;
   text-align: left; }
+.section-style .img-row .col {
+  padding: 0; }
+.section-style .img-row img {
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
