@@ -1,9 +1,13 @@
 @import "home-main";
-@import "about-us";
+@import "background";
 
 /*COLORS*/
 $white: #FFFFFF;
 $purple: #622DF8;
+
+.white{
+  color:$white;
+}
 
 /*background colors*/
 
@@ -17,7 +21,8 @@ $purple: #622DF8;
   background-color: $purple;
 }
 
-/* Re usable classes */
+// buttons
+
 .purchase1{
   text-transform:uppercase;
   background-color:$purple;
@@ -26,11 +31,75 @@ $purple: #622DF8;
   border-radius:2px;
   letter-spacing:1.3px;
 }
+.learnmore{
+  border: 1px solid $purple;
+  border-radius: 3px;
+  padding: 1rem;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: $white;
+  background-color: $purple;
+}
+
+.explore{
+  border: 2px solid #FFF;
+  border-radius: 3px;
+  width: 170px;
+  text-align: center;
+  padding: 7px;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing:1.3px;
+  a{
+    color: #FFF;
+    text-transform: uppercase;
+  }
+}
+.purchase{
+  color: $white;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  padding: 15px 30px;
+}
+.btlearn{
+  border: 1px solid $white;
+  border-radius: 4px;
+  width: 120px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.learn-white{
+  a{
+    color: grey;
+  }
+  background-color: #FFF;
+}
+.learn-mont{
+  a{
+    color: $white;
+  }
+}
+.learn-purple{
+  a{
+    color: $white;
+  }
+  background-color: $purple;
+  border-color: $purple;
+}
+/* Re usable classes */
+
 .upperbottom{
   padding: 5rem 0;
 }
 .smallspace{
   padding: 2rem;
+}
+.sidepad{
+  padding: 0 5rem;
 }
 .space{
   padding-top: 5rem;
@@ -41,14 +110,13 @@ $purple: #622DF8;
 .pad-updown{
   padding: 20px 0;
 }
-.purchasenow{
-  height: 40px;
-}
+
 .borderbottom{
   border-bottom:1px solid rgba(242, 242, 242, 0.32);
 }
 
 /* Page styling */
+
 html, body{
   width: 100%;
   height: 100%;
@@ -65,18 +133,72 @@ body{
     }
   }
 }
+
 .navbar{
   text-transform: uppercase;
   font-size: 12px;
   padding: 20px 16px;
+  .nav-link{
+    text-transform:uppercase;
+    font-weight:bold;
+    color:black;
+  }
   a{
     margin: 0;
   }
 }
+
 h1{
   text-transform: uppercase;
   font-weight: bold;
 }
+
+.features, .center{
+  text-align: center;
+}
+
+.upper-divider{
+  height: 3px;
+  width: 100px;
+  margin-top: 10px;
+  background-color: $purple;
+}
+
+.divider-ipad{
+  margin: 30px 0 20px 0;
+  background-color: $purple;
+  width: 50px;
+  height: 3px;
+}
+
+.tools-main{
+  .icons{
+    font-size: 45px;
+    padding-bottom: 10px;
+  }
+  h6{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 25px;
+  }
+}
+
+.img-row{
+  .col{
+    padding: 0;
+  }
+  img{
+    width: 100%;
+  }
+}
+
+.prefooter{
+  p, a{
+    margin: 0;
+    color: $white;
+  }
+}
+
 /* Bottom page pre footer styling */
 
 .bottompage{
@@ -84,13 +206,11 @@ h1{
   color:rgb(119, 119, 119);
   padding-top:60px;
   font-size:17px;
-
   img{
     height:13%;
     width:13%;
     margin-bottom:20px;
   }
-
   h3{
     color:white;
     text-transform:uppercase;
@@ -106,20 +226,17 @@ h1{
     }
   }
   ul{
-
     padding:0;
     margin:0;
   }
   li{
     list-style-type: none;
     padding-bottom:12px;
-
   }
   .minititle{
     font-size:93%;
   }
 }
-
 
 .date{
   width:100%;
@@ -129,16 +246,13 @@ h1{
   padding-top:2px;
 }
 
-.white{
-  color:$white;
-}
-
 .logos{
   img{
     height:60%;
     padding:12px 0px;
   }
 }
+
 /* footer styling */
 
 footer{
@@ -147,6 +261,7 @@ footer{
   height: 70px;
   font-family: "Poppins";
 }
+
 .socials{
   font-size: 17px;
   p, a{
@@ -156,6 +271,7 @@ footer{
     color:grey;
   }
 }
+
 .testimonials{
   height: 500px;
   h4{
@@ -170,25 +286,26 @@ footer{
   }
 }
 
-.carousel-indicators {
+.carousel-indicators{
   bottom:-40px;
 .active{
     background-color: rgba(0,0,0,0.8);
     height:13px;
     width:13px;
+  }
+  li{
+    background-color: rgba(0,0,0,0.5);
+    border-radius:50%;
+    height:10px;
+    width:10px;
+  }
 }
-}
-.carousel-indicators li{
-  background-color: rgba(0,0,0,0.5);
-  border-radius:50%;
-  height:10px;
-  width:10px;
 
-}
 .blogposts{
   background-color:rgba(0,0,0,0.1);
   padding:50px 0;
 }
+
 .infos{
   h4{
     font-size:13px;
@@ -198,6 +315,7 @@ footer{
     font-weight:bold;
   }
 }
+
 .blogpostscontent{
   margin:0 auto;
   width:80%;
@@ -232,12 +350,7 @@ footer{
     }
   }
 }
-  a{
-    margin-top:20px;
-    color:black;
-    text-transform:uppercase;
-    font-weight:bold;
-  }
+
 // Minimal page specific styling
 .minimal{
   nav{
@@ -292,7 +405,7 @@ footer{
   }
 }
 
-.foot{
+.cardfoot{
   img{
     padding-right: 10px;
     width: 30px;
@@ -345,15 +458,6 @@ footer{
   .features{
     background-color: $white;
   }
-  .workonlaptop{
-    background:
-    url('../images/workonlaptop.jpg') no-repeat;
-    background-size:cover;
-  }
-  .apple{
-    background:url('../images/apple-desk.jpg') no-repeat;
-    background-size:cover;
-  }
     .bord{
       border:solid rgba(255,255,255,0.5) 0.5px;
     }
@@ -393,7 +497,6 @@ footer{
       }
     }
   }
-
 }
 
 .trans{
@@ -404,17 +507,18 @@ footer{
 }
 
 // Section-style Page
+
 .topcontent{
   color:white;
-  height:150vh;
   background:linear-gradient(
   rgba(0,0,0,0.3),
   rgba(0,0,0,0.3)),
   url('../images/34253245-1.jpg') ;
   background-size:cover;
+  h2,h4{
+    margin: 0;
+  }
   h2{
-    padding-top:10px;
-    padding-bottom:20px;
     font-size:60px;
     text-transform:uppercase;
   }
@@ -422,30 +526,18 @@ footer{
     color:rgba(255,255,255,0.5);
     font-size:20px;
   }
-    .omg{
-    padding-top:25%;
-    padding-left:15%;
-    height:33%;
-    max-width:70%;
-  }
-  .boxtwo{
-    height:500px;
-  }
 }
 
 .section-style{
+  .space{
+    padding-top: 12rem;
+  }
   .card-text{
     h5{
       font-weight:bold;
     }
     h5,p{
       padding-left:20px;
-    }
-  }
-  .prefooter{
-    p, a{
-      margin: 0;
-      color: $white;
     }
   }
   .b8{
@@ -458,28 +550,6 @@ footer{
       margin: 8px 0;
     }
   }
-  .learnmore{
-    border: 1px solid $purple;
-    border-radius: 3px;
-    padding: 1rem;
-    font-size: 12px;
-    letter-spacing: 1px;
-    color: $white;
-    background-color: $purple;
-  }
-  .posts{
-    a{
-      margin: 0;
-    }
-    h6{
-      font-weight: bold;
-      font-size: 17px;
-    }
-    p{
-      font-size: 14px;
-      color: #A2A2A2;
-    }
-  }
   .update-software{
     h3{
       text-transform: uppercase;
@@ -488,24 +558,24 @@ footer{
       text-align: left;
     }
   }
-  .img-row{
-    .col{
-      padding: 0;
-    }
-    img{
-      width: 100%;
-    }
+}
+
+.posts{
+  a{
+    margin: 0;
+  }
+  h6{
+    font-weight: bold;
+    font-size: 17px;
+  }
+  p{
+    font-size: 14px;
+    color: #A2A2A2;
   }
 }
+
 // photography
-.beach{
-  background:linear-gradient(
-  rgba(0,0,0,0.6),
-  rgba(0,0,0,0.6)),
-  url("../images/beach.jpg");
-  background-size: cover;
-  background-position: center;
-}
+
 .photography{
   nav{
     .nav-link{
@@ -514,6 +584,9 @@ footer{
     }
   }
 }
+
+// Portfolio
+
 .pic-block{
   img{
     width: 100%;

@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/*Background*/
+.box-6 {
+  background-image: url(../images/montagne.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFF; }
+  .box-6 h3 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px; }
+
+.mont {
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.box-8 {
+  background-image: url(http://newthemes.themeple.co/setup/wp-content/uploads/2017/09/blurbg13.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF; }
+
+.desk {
+  background: linear-gradient(rgba(1, 27, 255, 0.8), rgba(1, 27, 255, 0.8)), url("../images/desk-box.jpg");
+  background-size: cover; }
+
+.tattoo {
+  background-image: url(../images/tatoo.jpg);
+  background-repeat: no-repeat; }
+
+.apple-desk {
+  background-image: url(../images/apple-desk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.b4 {
+  background: linear-gradient(rgba(70, 0, 216, 0.8), rgba(70, 0, 216, 0.8)), url("../images/hills.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  text-transform: uppercase; }
+  .b4 h3 {
+    font-weight: bold; }
+  .b4 h5 {
+    font-size: 16px;
+    letter-spacing: 1px; }
+
+.subscribe {
+  height: 150px;
+  background: linear-gradient(rgba(1, 27, 255, 0.6), rgba(1, 27, 255, 0.6)), url("../images/231§43.jpg");
+  background-position: center -450px;
+  color: white; }
+  .subscribe h2 {
+    font-size: 2.60rem; }
+
+.form {
+  height: 275px;
+  background: linear-gradient(rgba(1, 27, 255, 0.6), rgba(1, 27, 255, 0.6)), url("../images/231§43.jpg"); }
+
+.workonlaptop {
+  background: url("../images/workonlaptop.jpg") no-repeat;
+  background-size: cover; }
+
+.apple {
+  background: url("../images/apple-desk.jpg") no-repeat;
+  background-size: cover; }
+
+.beach {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/beach.jpg");
+  background-size: cover;
+  background-position: center; }
+
+/*# sourceMappingURL=background.css.map */
