@@ -1,0 +1,94 @@
+@charset "UTF-8";
+.about-us .info {
+  color: #FFFFFF; }
+.about-us .upper-divider {
+  margin-bottom: 20px; }
+.about-us nav .nav-link {
+  color: #FFFFFF;
+  font-weight: bold; }
+.about-us .blogpostscontent img {
+  height: 356px; }
+.about-us .blogpostscontent h4 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black; }
+.about-us .blogpostscontent hr {
+  width: 10%; }
+.about-us .blogpostscontent h5 {
+  color: grey;
+  font-size: 95%; }
+.about-us .blogpostscontent ul {
+  padding-left: 30%;
+  width: 70%;
+  color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-top: 40px; }
+.about-us .purchase {
+  color: #FFFFFF;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  padding: 15px 30px; }
+
+.desk {
+  background: linear-gradient(rgba(1, 27, 255, 0.8), rgba(1, 27, 255, 0.8)), url("../images/desk-box.jpg");
+  background-size: cover; }
+
+.box-blue {
+  color: #FFFFFF; }
+  .box-blue h1 {
+    font-size: 60px; }
+  .box-blue h5 {
+    color: lightblue;
+    font-weight: bold; }
+  .box-blue h1, .box-blue h5 {
+    margin: 0; }
+
+.b2 {
+  height: 500px; }
+
+.tattoo {
+  background-image: url(../images/tatoo.jpg);
+  background-repeat: no-repeat; }
+
+.apple-desk {
+  background-image: url(../images/apple-desk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.b4 {
+  background: linear-gradient(rgba(70, 0, 216, 0.8), rgba(70, 0, 216, 0.8)), url("../images/hills.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  text-transform: uppercase; }
+  .b4 h3 {
+    font-weight: bold; }
+  .b4 h5 {
+    font-size: 16px;
+    letter-spacing: 1px; }
+
+.subscribe {
+  height: 150px;
+  background: linear-gradient(rgba(1, 27, 255, 0.6), rgba(1, 27, 255, 0.6)), url("../images/231§43.jpg");
+  background-position: center -450px;
+  color: white; }
+  .subscribe h2 {
+    font-size: 2.60rem; }
+
+.form {
+  height: 275px;
+  background: linear-gradient(rgba(1, 27, 255, 0.6), rgba(1, 27, 255, 0.6)), url("../images/231§43.jpg"); }
+
+#seethrough {
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 2px white;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.2px; }
+
+/*# sourceMappingURL=about-us.css.map */
