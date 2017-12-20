@@ -1,7 +1,23 @@
-/* Re usable classes */
+@import "home-main";
+@import "about-us";
+
+/*COLORS*/
 $white: #FFFFFF;
 $purple: #622DF8;
 
+/*background colors*/
+
+.greyback{
+  background-color: #f5f5f5;
+}
+.black{
+  background-color: black;
+}
+.purple{
+  background-color: $purple;
+}
+
+/* Re usable classes */
 .purchase1{
   text-transform:uppercase;
   background-color:$purple;
@@ -31,11 +47,7 @@ $purple: #622DF8;
 .borderbottom{
   border-bottom:1px solid rgba(242, 242, 242, 0.32);
 }
-.greyback{
-  background-color: #f5f5f5;
-}
 
-@import "home-main";
 /* Page styling */
 html, body{
   width: 100%;
@@ -52,6 +64,18 @@ body{
       }
     }
   }
+}
+.navbar{
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 20px 16px;
+  a{
+    margin: 0;
+  }
+}
+h1{
+  text-transform: uppercase;
+  font-weight: bold;
 }
 /* Bottom page pre footer styling */
 
@@ -267,6 +291,7 @@ footer{
     }
   }
 }
+
 .foot{
   img{
     padding-right: 10px;
@@ -278,140 +303,6 @@ footer{
     font-size: 10px;
   }
 }
-
-// About us code
-.about-us{
-  .info{
-    color: $white;
-  }
-  .upper-divider{
-    margin-bottom: 20px;
-  }
-  nav{
-    .nav-link{
-      color: $white;
-      font-weight: bold;
-    }
-  }
-  .blogpostscontent{
-    img{
-      height:356px;
-    }
-    h4{
-      padding-top:30px;
-      padding-bottom:10px;
-      text-transform:uppercase;
-      font-weight:bold;
-      color:black;
-    }
-    hr{
-      width:10%;
-    }
-    h5{
-      color:grey;
-      font-size:95%;
-    }
-    ul{
-      padding-left:30%;
-      width:70%;
-      color:grey;
-      display:flex;
-      align-items:center;
-      justify-content:space-around;
-      list-style-type:none;
-      padding-top:40px;
-
-      }
-    }
-  .purchase{
-    color: $white;
-    border: 3px solid rgba(255, 255, 255, 0.3);
-    border-radius: 3px;
-    padding: 15px 30px;
-  }
-}
-.desk{
-  background:linear-gradient(
-  rgba(1,27,255,0.8),
-  rgba(1,27,255,0.8)),
-  url("../images/desk-box.jpg");
-  background-size: cover;
-}
-.box-blue{
-  color: $white;
-  h1{
-    text-transform: uppercase;
-    font-size: 60px;
-    font-weight: bold;
-  }
-  h5{
-    color: lightblue;
-    font-weight: bold;
-  }
-  h1, h5{
-    margin: 0;
-  }
-}
-
-.b2{
-  height: 500px;
-}
-.tattoo{
-  background-image: url(../images/tatoo.jpg);
-  background-repeat:no-repeat;
-}
-.apple-desk{
-  background-image: url(../images/apple-desk.jpg);
-  background-repeat:no-repeat;
-  background-size: cover;
-}
-.b4{
-  background:linear-gradient(
-  rgba(70, 0, 216, 0.8),
-  rgba(70, 0, 216, 0.8)),
-  url("../images/hills.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: $white;
-  text-transform: uppercase;
-  h3{
-    font-weight: bold;
-  }
-  h5{
-    font-size: 16px;
-    letter-spacing: 1px;
-  }
-}
-.subscribe{
-  height:150px;
-  background:linear-gradient(
-  rgba(1,27,255,0.6),
-  rgba(1,27,255,0.6)),
-  url("../images/231§43.jpg");
-  background-position:center -450px;
-  color:white;
-  h2{
-    font-size:2.60rem;
-
-  }
-}
-
-.form{
-  height:275px;
-  background:linear-gradient(
-  rgba(1,27,255,0.6),
-  rgba(1,27,255,0.6)),
-  url("../images/231§43.jpg");
-}
-
-#seethrough{
-  background-color:rgba(0,0,0,0);
-  border:solid 2px white;
-  color:white;
-  text-transform:uppercase;
-  letter-spacing:1.2px;
-}
-
 
 // Digital agency Page
 
@@ -504,13 +395,13 @@ footer{
   }
 
 }
+
 .trans{
   color:white;
   margin-top:30px;
   border:solid 1px rgba(255,255,255,0.5) ;
   padding:5px 15px ;
 }
-
 
 // Section-style Page
 .topcontent{
@@ -531,8 +422,6 @@ footer{
     color:rgba(255,255,255,0.5);
     font-size:20px;
   }
-
-
     .omg{
     padding-top:25%;
     padding-left:15%;
@@ -544,8 +433,6 @@ footer{
   }
 }
 
-
-// Section style
 .section-style{
   .card-text{
     h5{
@@ -555,28 +442,22 @@ footer{
       padding-left:20px;
     }
   }
-
   .prefooter{
-
     p, a{
       margin: 0;
       color: $white;
     }
   }
-
   .b8{
-
     h6{
       font-weight: bold;
       font-size: 20px;
     }
-
     p{
       font-size: 15px;
       margin: 8px 0;
     }
   }
-
   .learnmore{
     border: 1px solid $purple;
     border-radius: 3px;
@@ -586,7 +467,6 @@ footer{
     color: $white;
     background-color: $purple;
   }
-
   .posts{
     a{
       margin: 0;
@@ -600,7 +480,6 @@ footer{
       color: #A2A2A2;
     }
   }
-
   .update-software{
     h3{
       text-transform: uppercase;
@@ -618,6 +497,7 @@ footer{
     }
   }
 }
+// photography
 .beach{
   background:linear-gradient(
   rgba(0,0,0,0.6),
@@ -632,5 +512,10 @@ footer{
       color: $white;
       font-weight: bold;
     }
+  }
+}
+.pic-block{
+  img{
+    width: 100%;
   }
 }

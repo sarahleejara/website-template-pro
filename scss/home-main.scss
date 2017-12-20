@@ -1,63 +1,56 @@
 $white: #FFFFFF;
 $purple: #622DF8;
 
-.navbar{
-  text-transform: uppercase;
-  font-size: 12px;
-  padding: 20px 16px;
-  a{
-    margin: 0;
-  }
-}
 .dropdown-item{
   font-size: 12px;
   text-transform: capitalize;
 }
+
 .carousel-caption{
   bottom: 35%;
   h1{
     font-size: 80px;
-    text-transform: uppercase;
-    font-weight: bold;
   }
   p{
     text-transform: uppercase;
     font-weight: bold;
   }
 }
+
 .purple-logo{
   a, i{
     color: $purple;
   }
 }
+
 .box-2, .features{
   background-color: #F6F6F6;
 }
+
 .setup{
   text-align: center;
   width: 700px;
 }
+
 .box-3{
   h3{
     font-size: 40px;
     font-weight: bold;
   }
 }
+
 .sub-3{
   color: #FFF;
 }
+
 .skills{
   p{
     margin: 0;
     padding: 15px 0;
   }
 }
-.black{
-  background-color: black;
-}
-.purple{
-  background-color: $purple;
-}
+
+
 .explore{
   border: 2px solid #FFF;
   border-radius: 3px;
