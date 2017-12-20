@@ -16,10 +16,6 @@
 .box-2, .features {
   background-color: #F6F6F6; }
 
-.setup {
-  text-align: center;
-  width: 700px; }
-
 .box-3 h3 {
   font-size: 40px;
   font-weight: bold; }
@@ -30,19 +26,6 @@
 .skills p {
   margin: 0;
   padding: 15px 0; }
-
-.explore {
-  border: 2px solid #FFF;
-  border-radius: 3px;
-  width: 170px;
-  text-align: center;
-  padding: 7px;
-  font-size: 13px;
-  font-weight: bold;
-  letter-spacing: 1.3px; }
-  .explore a {
-    color: #FFF;
-    text-transform: uppercase; }
 
 .box-4 {
   text-align: center;
@@ -60,43 +43,8 @@
   text-transform: capitalize;
   font: 40px bold, sans-serif; }
 
-.upper-divider {
-  height: 3px;
-  width: 100px;
-  margin-top: 10px;
-  background-color: #622DF8; }
-
 .pf h4 {
   margin: 0; }
-
-.features {
-  text-align: center; }
-
-.tools-main .icons {
-  font-size: 45px;
-  padding-bottom: 10px; }
-.tools-main h6 {
-  font-weight: bold;
-  text-transform: capitalize;
-  font-size: 25px; }
-
-.box-6 {
-  background-image: url(../images/montagne.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #FFF; }
-  .box-6 h3 {
-    font-weight: bolder;
-    text-transform: uppercase;
-    font-size: 20px; }
-
-.montain {
-  width: 300px;
-  height: 70%; }
-
-.mont {
-  background-color: rgba(0, 0, 0, 0.8); }
 
 .update-software {
   text-align: justify; }
@@ -109,47 +57,57 @@
   .update-software p {
     line-height: 30px; }
 
-.divider-ipad {
-  margin: 30px 0 20px 0;
-  background-color: #622DF8;
-  width: 50px;
-  height: 3px; }
-
-.box-8 {
-  background-image: url(http://newthemes.themeple.co/setup/wp-content/uploads/2017/09/blurbg13.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #FFFFFF; }
-
 .nightsky {
   border-radius: 3px;
   margin-right: 15px;
   padding: 20px 0; }
 
-.btlearn {
-  border: 1px solid #FFFFFF;
-  border-radius: 4px;
-  width: 120px;
-  padding: 10px;
+.about-us .upper-divider {
+  margin-bottom: 20px; }
+.about-us nav .nav-link {
+  color: #FFFFFF;
+  font-weight: bold; }
+.about-us .blogpostscontent img {
+  height: 356px; }
+.about-us .blogpostscontent h4 {
+  padding-top: 30px;
+  padding-bottom: 10px;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 11px;
-  letter-spacing: 1px;
-  text-align: center; }
+  color: black; }
+.about-us .blogpostscontent hr {
+  width: 10%; }
+.about-us .blogpostscontent h5 {
+  color: grey;
+  font-size: 95%; }
+.about-us .blogpostscontent ul {
+  padding-left: 30%;
+  width: 70%;
+  color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-top: 40px; }
 
-.learn-white {
-  background-color: #FFF; }
-  .learn-white a {
-    color: grey; }
-
-.learn-mont a {
+.box-blue {
   color: #FFFFFF; }
+  .box-blue h1 {
+    font-size: 60px; }
+  .box-blue h5 {
+    color: lightblue;
+    font-weight: bold; }
+  .box-blue h1, .box-blue h5 {
+    margin: 0; }
 
-.learn-purple {
-  background-color: #622DF8;
-  border-color: #622DF8; }
-  .learn-purple a {
-    color: #FFFFFF; }
+.b2 {
+  height: 500px; }
+
+#seethrough {
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 2px white;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.2px; }
 
 /*# sourceMappingURL=home-main.css.map */
