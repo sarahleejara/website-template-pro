@@ -1,22 +1,170 @@
-/*
-Errno::ENOENT: No such file or directory @ rb_sysopen - home-main.scss
+.navbar {
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 20px 16px; }
+  .navbar a {
+    margin: 0; }
 
-Backtrace:
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:454:in `read'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:454:in `update_stylesheet'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `each'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/plugin.rb:82:in `update_stylesheets'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:51:in `process_result'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
-/var/lib/gems/2.3.0/gems/sass-3.5.3/bin/sass:13:in `<top (required)>'
-/usr/local/bin/sass:22:in `load'
-/usr/local/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - home-main.scss"; }
+.dropdown-item {
+  font-size: 12px;
+  text-transform: capitalize; }
+
+.carousel-caption {
+  bottom: 35%; }
+  .carousel-caption h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .carousel-caption p {
+    text-transform: uppercase;
+    font-weight: bold; }
+
+.purple-logo a, .purple-logo i {
+  color: #622DF8; }
+
+.box-2, .features {
+  background-color: #F6F6F6; }
+
+.setup {
+  text-align: center;
+  width: 700px; }
+
+.box-3 h3 {
+  font-size: 40px;
+  font-weight: bold; }
+
+.sub-3 {
+  color: #FFF; }
+
+.skills p {
+  margin: 0;
+  padding: 15px 0; }
+
+.black {
+  background-color: black; }
+
+.purple {
+  background-color: #622DF8; }
+
+.explore {
+  border: 2px solid #FFF;
+  border-radius: 3px;
+  width: 170px;
+  text-align: center;
+  padding: 7px;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1.3px; }
+  .explore a {
+    color: #FFF;
+    text-transform: uppercase; }
+
+.box-4 {
+  text-align: center;
+  height: 1000px; }
+
+.sub4 {
+  margin-bottom: 20px; }
+
+.make-it h3, .make-it h5 {
+  margin: 0; }
+.make-it h5 {
+  font-size: 15px; }
+.make-it h3 {
+  padding: 10px 0;
+  text-transform: capitalize;
+  font: 40px bold, sans-serif; }
+
+.upper-divider {
+  height: 3px;
+  width: 100px;
+  margin-top: 10px;
+  background-color: #622DF8; }
+
+.pf h4 {
+  margin: 0; }
+
+.features {
+  text-align: center; }
+
+.tools-main .icons {
+  font-size: 45px;
+  padding-bottom: 10px; }
+.tools-main h6 {
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 25px; }
+
+.box-6 {
+  background-image: url(../images/montagne.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFF; }
+  .box-6 h3 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px; }
+
+.montain {
+  width: 300px;
+  height: 70%; }
+
+.mont {
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.update-software {
+  text-align: justify; }
+  .update-software h5 {
+    font-size: 25px;
+    color: lightgrey; }
+  .update-software h3 {
+    font-size: 35px;
+    font-weight: bold; }
+  .update-software p {
+    line-height: 30px; }
+
+.divider-ipad {
+  margin: 30px 0 20px 0;
+  background-color: #622DF8;
+  width: 50px;
+  height: 3px; }
+
+.box-8 {
+  background-image: url(http://newthemes.themeple.co/setup/wp-content/uploads/2017/09/blurbg13.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF; }
+
+.nightsky {
+  border-radius: 3px;
+  margin-right: 15px;
+  padding: 20px 0; }
+
+.btlearn {
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  width: 120px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-align: center; }
+
+.learn-white {
+  background-color: #FFF; }
+  .learn-white a {
+    color: grey; }
+
+.learn-mont a {
+  color: #FFFFFF; }
+
+.learn-purple {
+  background-color: #622DF8;
+  border-color: #622DF8; }
+  .learn-purple a {
+    color: #FFFFFF; }
+
+/*# sourceMappingURL=home-main.css.map */

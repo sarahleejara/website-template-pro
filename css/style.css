@@ -1,10 +1,5 @@
 @charset "UTF-8";
 /* Re usable classes */
-@import url(home-main.css);
-html, body {
-  width: 100%;
-  overflow-x: hidden; }
-
 .purchase1 {
   text-transform: uppercase;
   background-color: #622DF8;
@@ -36,18 +31,6 @@ html, body {
 
 .greyback {
   background-color: #f5f5f5; }
-
-/* Page styling */
-html, body {
-  width: 100%;
-  height: 100%; }
-
-body {
-  font-family: "Poppins"; }
-  body .info {
-    font-size: 11px; }
-    body .info .row div {
-      padding: 10px 0px; }
 
 .navbar {
   text-transform: uppercase;
@@ -217,6 +200,19 @@ body {
   border-color: #622DF8; }
   .learn-purple a {
     color: #FFFFFF; }
+
+/* Page styling */
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; }
+
+body {
+  font-family: "Poppins"; }
+  body .info {
+    font-size: 11px; }
+    body .info .row div {
+      padding: 10px 0px; }
 
 /* Bottom page pre footer styling */
 .bottompage {
