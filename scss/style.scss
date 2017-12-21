@@ -529,16 +529,6 @@ footer{
   }
 }
 
-// BLOG GRID
-.blog-grid{
-  .upper-divider{
-    background-color: $white;
-  }
-  a{
-    color: $white;
-  }
-}
-
 // Portfolio 2
 
 .portfolio-2{
@@ -675,35 +665,55 @@ footer{
   }
 }
 // End authors blog
-
-// Beginning Shop
-.shop{
-  .bord{
-    border:solid rgba(0,0,0,0.2) 0.5px;
+.foot{
+  img{
+    padding: 0 10px;
   }
-  .shopitems{
-    h1{
-      padding-top:10px;
-      font-size:25px;
-    }
-    img{
-      border:solid rgba(0,0,0,0.2) 1px;
-      border-radius:5px;
+  small{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+}
 
+// BLOG GRID
+.blog-grid{
+  .upper-divider{
+    background-color: $white;
+  }
+  .box-1{
+    a{
+      color: $white;
     }
-    p{
-      color:rgba(0,0,0,0.8);
-    }
-    .crossed{
-      text-decoration:line-through;
-      font-size:0.5rem;
-        color:rgba(0,0,0,0.4);
-    }
-    .underline{
-      text-decoration: underline;
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+    h3{
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 50px;
     }
   }
 }
+.black-background{
+  background-color: rgb(6, 6, 6);
+}
+// CONTACT US
+.contact-us{
+  .box-1{
+    a{
+      border: 1px solid $purple;
+      border-radius: 100%;
+      padding: 15px 30px;
+      margin-bottom: 10px;
+      background-color: $purple;
+      font-size: 45px;
+    }
+    svg{
+      color: $white;
+
+    }
+  }
+}
+
 
 // End shop
 
