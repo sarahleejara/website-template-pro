@@ -226,7 +226,8 @@
 
 .view-hills {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/blog-grid.jpg");
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
   background-position: top; }
 
 /*COLORS*/
@@ -614,6 +615,16 @@ footer {
   background-color: #FFFFFF; }
 .blog-grid a {
   color: #FFFFFF; }
+.blog-grid .box-1 {
+  padding-top: 15rem;
+  padding-bottom: 5rem; }
+  .blog-grid .box-1 h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px; }
+
+.black-background {
+  background-color: #060606; }
 
 .portfolio-2 .img-row .col {
   padding: 0; }
@@ -708,5 +719,11 @@ footer {
   .author p {
     width: 50%;
     color: #6A7DF1; }
+
+.foot img {
+  padding: 0 10px; }
+.foot small {
+  text-transform: uppercase;
+  letter-spacing: 2px; }
 
 /*# sourceMappingURL=style.css.map */
