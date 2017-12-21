@@ -537,19 +537,8 @@ footer{
   a{
     color: $white;
   }
-  .box-1{
-    padding-top: 15rem;
-    padding-bottom: 5rem;
-    h3{
-      text-transform: uppercase;
-      font-weight: bold;
-      font-size: 50px;
-    }
-  }
 }
-.black-background{
-  background-color: rgb(6, 6, 6);
-}
+
 // Portfolio 2
 
 .portfolio-2{
@@ -686,7 +675,6 @@ footer{
   }
 }
 // End authors blog
-<<<<<<< HEAD
 
 // Beginning Shop
 .shop{
@@ -701,9 +689,7 @@ footer{
     img{
       border:solid rgba(0,0,0,0.2) 1px;
       border-radius:5px;
-      &:hover{
-        filter:grayscale(20%);
-      }
+
     }
     p{
       color:rgba(0,0,0,0.8);
@@ -720,14 +706,3 @@ footer{
 }
 
 // End shop
-=======
-.foot{
-  img{
-    padding: 0 10px;
-  }
-  small{
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-}
->>>>>>> 78e002e00402ec72a760cc216e0e5e5b057e5f05
