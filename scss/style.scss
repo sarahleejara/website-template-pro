@@ -675,3 +675,36 @@ footer{
   }
 }
 // End authors blog
+
+// Beginning Shop
+.shop{
+  .bord{
+    border:solid rgba(0,0,0,0.2) 0.5px;
+  }
+  .shopitems{
+    h1{
+      padding-top:10px;
+      font-size:25px;
+    }
+    img{
+      border:solid rgba(0,0,0,0.2) 1px;
+      border-radius:5px;
+      &:hover{
+        filter:grayscale(20%);
+      }
+    }
+    p{
+      color:rgba(0,0,0,0.8);
+    }
+    .crossed{
+      text-decoration:line-through;
+      font-size:0.5rem;
+        color:rgba(0,0,0,0.4);
+    }
+    .underline{
+      text-decoration: underline;
+    }
+  }
+}
+
+// End shop
