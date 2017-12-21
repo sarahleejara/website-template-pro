@@ -706,3 +706,33 @@ footer{
 }
 
 // End shop
+
+
+// Contact us
+.contact{
+
+    .bord{
+      border:solid rgba(0,0,0,0.2) 0.5px;
+    }
+}
+.formz{
+  background-color:blue;
+  position:relative;
+}
+
+.formulaire{
+  position:relative;
+  top:0;
+  background-color:white;
+  border-radius:5px;
+  padding-top:50px;
+  h1{
+    font-size:25px;
+  }
+  form{
+    div{
+      padding:10px 0;
+    }
+  }
+}
+// End contact us

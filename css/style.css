@@ -727,4 +727,22 @@ footer {
 .shop .shopitems .underline {
   text-decoration: underline; }
 
+.contact .bord {
+  border: solid rgba(0, 0, 0, 0.2) 0.5px; }
+
+.formz {
+  background-color: blue;
+  position: relative; }
+
+.formulaire {
+  position: relative;
+  top: 0;
+  background-color: white;
+  border-radius: 5px;
+  padding-top: 50px; }
+  .formulaire h1 {
+    font-size: 25px; }
+  .formulaire form div {
+    padding: 10px 0; }
+
 /*# sourceMappingURL=style.css.map */
