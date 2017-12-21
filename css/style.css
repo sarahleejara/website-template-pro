@@ -613,8 +613,18 @@ footer {
 
 .blog-grid .upper-divider {
   background-color: #FFFFFF; }
-.blog-grid a {
-  color: #FFFFFF; }
+.blog-grid .box-1 {
+  padding-top: 15rem;
+  padding-bottom: 5rem; }
+  .blog-grid .box-1 a {
+    color: #FFFFFF; }
+  .blog-grid .box-1 h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px; }
+
+.black-background {
+  background-color: #060606; }
 
 .portfolio-2 .img-row .col {
   padding: 0; }
@@ -710,21 +720,10 @@ footer {
     width: 50%;
     color: #6A7DF1; }
 
-.shop .bord {
-  border: solid rgba(0, 0, 0, 0.2) 0.5px; }
-.shop .shopitems h1 {
-  padding-top: 10px;
-  font-size: 25px; }
-.shop .shopitems img {
-  border: solid rgba(0, 0, 0, 0.2) 1px;
-  border-radius: 5px; }
-.shop .shopitems p {
-  color: rgba(0, 0, 0, 0.8); }
-.shop .shopitems .crossed {
-  text-decoration: line-through;
-  font-size: 0.5rem;
-  color: rgba(0, 0, 0, 0.4); }
-.shop .shopitems .underline {
-  text-decoration: underline; }
+.foot img {
+  padding: 0 10px; }
+.foot small {
+  text-transform: uppercase;
+  letter-spacing: 2px; }
 
 /*# sourceMappingURL=style.css.map */
