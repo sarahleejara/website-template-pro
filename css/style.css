@@ -689,4 +689,24 @@ footer {
   border: solid rgba(0, 0, 0, 0.3) 0.5px;
   border-radius: 0; }
 
+.author {
+  color: white;
+  background-color: blue;
+  padding-bottom: 12rem; }
+  .author .fuckoff {
+    width: 90%;
+    margin: 0 auto; }
+  .author .paddingfest {
+    padding: 5rem 2rem;
+    background-color: grey; }
+  .author .upper-divider {
+    background-color: #6A7DF1;
+    margin: 20px 0px; }
+  .author h2 {
+    font-family: 'Satisfy', cursive;
+    font-size: 40px; }
+  .author p {
+    width: 50%;
+    color: #6A7DF1; }
+
 /*# sourceMappingURL=style.css.map */
