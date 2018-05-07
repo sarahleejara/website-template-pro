@@ -4,4 +4,4 @@ In groupe of two we had to use SASS and any CSS framework we wanted to build the
 [Here are the instructions](https://github.com/becodeorg/Hamilton-promo-3/tree/master/Parcours%20FR/04-SASS).
 
 And here are the [results](
-https://sarahleejara.github.io/website-template-pro/html/main.html)
+https://sarahleejara.github.io/website-template-pro/html/main.html).
